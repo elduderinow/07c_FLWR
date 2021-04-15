@@ -1,0 +1,21 @@
+.carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 5em;
+}
+
+#navigation {
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  top: 0px;
+}
+#navigation .navbar {
+  padding: 30px 30px;
+}
+
+.carousel-image {
+  width: 100% !important;
+  height: 1000px !important;
+  background-color: red;
+}
+
+/*# sourceMappingURL=shop_style.css.map */
