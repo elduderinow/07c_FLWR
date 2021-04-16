@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #1a1a1a;
+  background-color: #282728;
 }
 
 .title {
@@ -20,11 +20,11 @@ body {
 /*END GLOBAL STYLES*/
 /*BUTTON STYLES*/
 a.main-but {
-  background-color: #e9b3aa;
+  background-color: black;
   padding: 12px 25px;
   color: white;
   font-family: "Playfair Display", serif;
-  transition: 1s;
+  transition: 0.3s;
   margin: 5px;
 }
 a.main-but:hover {
