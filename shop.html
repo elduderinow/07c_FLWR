@@ -14,15 +14,18 @@
     <!-- Extra links -->
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/shop_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
 </head>
 <body>
 <div class="container-fluid">
-    <!-- header -->
 
+    <!-- header -->
     <div id="navigation" class="row">
 
         <nav class="navbar navbar-expand-lg w-100 p-4">
-            <img width="100" class="navbar-brand" src="resources/img/flwr-02.png">
+            <a href="index.html"><img width="100" class="navbar-brand" src="resources/img/flwr-02.png"
+                                      alt="flower logo image"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,39 +38,33 @@
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
+                        <a class="nav-link link-active" href="shop.html">Shop</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="details.html">Details</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Account
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">New</a>
-                            <a class="dropdown-item" href="#">Favorites</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">Account</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-whatsapp fa-lg"></i></a></li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </div>
-
-
     <div class="carousel row">
         <div class="bd-example w-100">
+
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -90,25 +87,21 @@
 
                     <div class="carousel-item">
                         <div class="header-img two col">
-                            <div class="shade"></div>
+
                         </div>
 
                         <div class="carousel-caption d-none d-md-block m-4">
-                            <h5>Exclusive flowers and plants.</h5><br><br>
 
-                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
                         </div>
                     </div>
 
                     <div class="carousel-item">
                         <div class="header-img three col">
-                            <div class="shade"></div>
+
                         </div>
 
                         <div class="carousel-caption d-none d-md-block m-4">
-                            <h5>Exclusive flowers and plants.</h5><br><br>
 
-                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
                         </div>
                     </div>
 
@@ -129,7 +122,8 @@
             <section id="ourplants" class="partners row">
                 <div class="col-sm-12 col-md-8 p-4 text-center m-auto">
                     <h2 class="title">Our plants and flowers</h2>
-                    <p class="body p-3">Thriving indoor plants, selected by the bestest green finger people. Ni goekoop ze makker!</p>
+                    <p class="body p-3">Thriving indoor plants, selected by the bestest green finger people. Ni goekoop
+                        ze makker!</p>
                 </div>
             </section>
 
@@ -140,7 +134,7 @@
                             <div class="cards-image img1"></div>
                             <div class="p-3">
                                 <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
-                                Price: 2000$</h2>
+                                    Price: 2000$</h2>
 
                                 <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
                             </div>
@@ -264,7 +258,8 @@
 
 </div>
 <!-- Optional JavaScript -->
-
+<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/v4-shims.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

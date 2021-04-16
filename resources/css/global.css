@@ -37,11 +37,35 @@ a.main-but:hover {
 .navbar {
   position: absolute;
   z-index: 5;
-  background-color: none;
+  background-color: transparent;
+}
+.navbar .social-icons {
+  color: white;
+}
+.navbar .social-icons ul li {
+  display: inline;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+.navbar .social-icons ul li:hover {
+  color: #be6f62;
+  cursor: pointer;
+}
+.navbar a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.navbar .link-active {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px !important;
 }
 .navbar .nav-link {
   color: white;
   font-family: "Playfair Display", serif;
+  transition: 0.3s;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
 }
 .navbar .nav-link:hover {
   color: #be6f62;
