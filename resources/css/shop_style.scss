@@ -20,7 +20,7 @@ a.header-but {
 
 .header-img {
   height: 600px;
-  background-image: url("../img/tropical_plant.jpeg");
+  background-image: url("../img/plants_ground.jpeg");
   background-size:cover;
 }
 
@@ -34,20 +34,33 @@ a.header-but {
   }
 }
 
+.navbar {
+  position: absolute;
+  z-index: 5;
+  background-color: none;
 
-#navigation {
+  .nav-link {
+    color:white;
+  }
+}
+
+
+/*#navigation {
   position: absolute;
   width: 100%;
   z-index: 5;
   top:0px;
 
-
-
   .navbar {
     padding:30px 30px;
   }
+  position: relative;
+  background-color: blue;
+  color:white;
 
-}
+}*/
+
+
 
 .cards {
 
@@ -76,5 +89,15 @@ a.header-but {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .navbar {
+    position: relative;
+    z-index: 5;
+    background-color: #191919;
 
+    .nav-link {
+     color: red;
+    }
+  }
+}
 
