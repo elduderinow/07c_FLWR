@@ -12,203 +12,228 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
-    <link rel="stylesheet" href="resources/css/index_style.css">
-    <!-- link below PI -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="resources/css/style-about.css" />
+    <link rel="stylesheet" href="resources/css/global.css">
+    <link rel="stylesheet" href="resources/css/style-about.css">
+
     <!--icon link below PI-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 <!-- header -->
-<header class="container-fluid">
-    <section id="navigation" class="row">
-        <nav class="navbar navbar-expand-md navbar-light bg-primary text-white w-100">
+<div class="container-fluid">
+    <div id="navigation" class="row">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg w-100 p-4">
+            <img width="100" class="navbar-brand" src="resources/img/flwr-02.png">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="shop.html">Shop</a>
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="details.html">Details</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">New</a>
+                            <a class="dropdown-item" href="#">Favorites</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="details.html">Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="account.html">Account</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="about.html">About Us</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0 border-white text-white" type="submit">Search
-                    </button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-            </section>
+            </div>
         </nav>
-    </section>
-</header>
-<!-- End Header -->
+    </div>
 
-<!-- Main -->
-<main class="row ">
-    <section class="col-sm bg-dark">
-        One of 4 columns
-    </section>
+    <div class="carousel row">
+        <div class="bd-example w-100">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
 
-    <section class="col-sm">
-        One of 4 columns
-    </section>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="header-img one col">
+                            <div class="shade"></div>
+                        </div>
 
-    <section class="col-sm bg-dark">
-        One of 4 columns
-    </section>
+                        <div class="carousel-caption d-md-block m-4">
+                            <h5>Exclusive flowers and plants.</h5><br><br>
 
-    <section class="col-sm">
-        One of 4 columns
-    </section>
+                            <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
+                        </div>
+                    </div>
 
-</main>
-<!-- End Main -->
+                    <div class="carousel-item">
+                        <div class="header-img two col">
+                            <div class="shade"></div>
+                        </div>
 
-<!-- quote -->
-<figure class="text-center pt-4">
-    <blockquote class="blockquote">
-        <p>“If we could see the miracle of a single flower clearly our whole life would change.” </p>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-        <cite title="Source Title">Buddha</cite>
-    </figcaption>
-</figure>
-<!-- End quote -->
-<!-- contact message -->
-<section>
-<section class="containter p-1 p-sm-3">
-    <section class="row">
-        <section class="col-12">
+                        <div class="carousel-caption d-none d-md-block m-4">
+                            <h5>Exclusive flowers and plants.</h5><br><br>
+
+                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="header-img three col">
+                            <div class="shade"></div>
+                        </div>
+
+                        <div class="carousel-caption d-none d-md-block m-4">
+                            <h5>Exclusive flowers and plants.</h5><br><br>
+
+                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="row ">
+        <section class="col-md-12 bg-dark">
+            <!-- quote -->
+            <figure class="text-center pt-4">
+                <blockquote class="blockquote">
+                    <p>“If we could see the miracle of a single flower clearly our whole life would change.” </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    <cite title="Source Title">Buddha</cite>
+                </figcaption>
+            </figure>
+            <!-- End quote -->
+        </section>
+
+        <section class="col-md-6 bg-dark">
             <p>
                 Fill up the contact form below and well do our best to reply in 24 hours.<br>
                 Alternatively simply puck up the phone and give us a call.
             </p>
             <hr>
-        </section>
-    </section>
 
-        </section>
-    </section>
+            <form action="">
+                <section class="form-row">
 
-    <!-- contact message -->
+                    <section class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Full name *">
 
-<!-- End Message box -->
-<section class="form-section">
-    <section class="containter">
-        <section class="row">
-            <section class="col-md-6">
-                <form action="">
-                    <section class="form-row">
-
-                        <section class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Full name *">
-
-                        </section>
-                        <section class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Email Address*">
-
-                        </section>
                     </section>
+                    <section class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Email Address*">
 
+                    </section>
+                </section>
+
+                <section class="form-row">
+
+                    <section class="form-group col-md-6">
+                        <input type="number" class="form-control" placeholder="Phone Number*">
+
+                    </section>
+                    <section class="form-group col-md-6">
+
+                        <!-- country -->
+                        <select class="form-control">
+                            <option selected>Country</option>
+                            <option value="1">Belgium</option>
+                            <option value="2">Netherlands</option>
+                            <option value="3">French</option>
+                            <option value="1">Germany</option>
+                            <option value="2">Spain</option>
+                            <option value="3">Italy</option>
+                            <option value="1">Luxembourg</option>
+                            <option value="2">Portugal</option>
+                            <option value="3">Finland</option>
+                            <option value="1">Latvia</option>
+                            <option value="2">Lithuania</option>
+                            <option value="3">Malta</option>
+                            <option value="1">Poland</option>
+                            <option value="2">Portugal</option>
+                            <option value="3">Romania</option>
+                            <option value="1">Slovakia</option>
+                            <option value="2">Slovenia</option>
+                            <option value="3">Sweden</option>
+                        </select>
+                    </section>
+                    <section class="form-group col-md-12">
+                        <input type="text" class="form-control" placeholder="Subject*">
+
+                    </section>
+                    <section class="form-group col-md-12">
+                        <textarea class="form-control" rows="5"></textarea>
+                    </section>
                     <section class="form-row">
-
-                        <section class="form-group col-md-6">
-                            <input type="number" class="form-control" placeholder="Phone Number*">
-
-                        </section>
-                        <section class="form-group col-md-6">
-
-                            <!-- country -->
-                            <select class="form-control">
-                                <option selected>Country</option>
-                                <option value="1">Belgium</option>
-                                <option value="2">Netherlands</option>
-                                <option value="3">French</option>
-                                <option value="1">Germany</option>
-                                <option value="2">Spain</option>
-                                <option value="3">Italy</option>
-                                <option value="1">Luxembourg</option>
-                                <option value="2">Portugal</option>
-                                <option value="3">Finland</option>
-                                <option value="1">Latvia</option>
-                                <option value="2">Lithuania</option>
-                                <option value="3">Malta</option>
-                                <option value="1">Poland</option>
-                                <option value="2">Portugal</option>
-                                <option value="3">Romania</option>
-                                <option value="1">Slovakia</option>
-                                <option value="2">Slovenia</option>
-                                <option value="3">Sweden</option>
-                            </select>
-                        </section>
-                        <section class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="Subject*">
-
-                        </section>
-                        <section class="form-group col-md-12">
-                            <textarea class="form-control" rows="5"></textarea>
-                        </section>
-                        <section class="form-row">
-                            <section class="form-group col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
-                                Send message</button>
-                            </section>
-
+                        <section class="form-group col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
+                                Send message
+                            </button>
                         </section>
 
-                </form>
+                    </section>
+                </section>
+            </form>
+        </section>
 
+        <section class="col-md-6 bg-dark">
+            <section class="col-md-6">
+            </section>
+            <section class="col-md-6 address">
+                <h5> Call us/WhatsApp</h5>
+                <p><a href="tel : +32 1 111 11 11"> <i class="fa fa-phone"></i> (+32 1 111 11 11) </a> <br>
+                </p>
+                <h5> Email </h5>
+                <p>
+                    <a href="mailto:flwr@example.com"> <i class="fa fa-envelope"></i></a>
+                </p>
+                <h5>Working hours</h5>
+                <p>
+                    Everyday : 08h-19h (CEST)
+                </p>
 
             </section>
         </section>
 
-    </section>
-</section>
-<!-- End Message box -->
+    </main>
+    <!-- End Main -->
 
-<section class="form-section">
-    <section class="containter">
-                <section class="row">
-                    <section class="col-md-6">
-                    </section>
-                    <section class="col-md-6 address">
-                        <h5> Call us/WhatsApp</h5>
-                        <p><a href="tel : +32 1 111 11 11" <i class="fa fa-phone"></i> (+32 1 111 11 11) </a> <br>
-                        </p>
-                        <h5> Email </h5>
-                        <p>
-                            <a href="mailto:flwr@example.com"> <i class="fa fa-envelope"></i></a>
-                        </p>
-                        <h5>Working hours</h5>
-                        <p>
-                            Everyday : 08h-19h (CEST)
-                        </p>
-                        
-                    </section>
-                </section>
 
-        </section>
-
-    </section>
-</section>
+</div>
 <!-- Footer -->
 <footer class="row">
     <section class="col-sm bg-primary w-100">

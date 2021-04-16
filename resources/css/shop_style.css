@@ -1,3 +1,15 @@
+.header-img.one {
+  background-image: url("../img/Dia1.jpeg");
+}
+
+.header-img.two {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
+.header-img.three {
+  background-image: url("../img/plants_ground.jpeg");
+}
+
 .partners {
   color: white;
   padding-top: 50px;
