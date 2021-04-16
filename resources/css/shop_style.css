@@ -20,6 +20,10 @@
   font-family: "Playfair Display", serif;
   color: white;
 }
+.cards .content p {
+  font-family: "Helvetica Neue" !important;
+  font-weight: lighter;
+}
 .cards .content .cards-image {
   width: 100%;
   height: 50vh;
@@ -33,7 +37,10 @@
   transition: 0.2s;
 }
 .cards .content .cards-image div p {
-  padding: 20px;
+  padding: 0 30px;
+  display: block;
+  position: absolute;
+  top: 30%;
 }
 .cards .content .cards-image div:hover {
   opacity: 0.8;
