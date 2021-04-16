@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+
+}
+
+section {
+    min-height: 105vh;
+
+}
+
+#home-section-1 {
+    background-image: url("../img/plants_ground.jpeg");
+    background-size: cover;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+
+figure{
+    margin: 40vh auto;
+    width: 569px;
+    text-align: right;
+}
+
+#home-logo{
+    width: 569px;
+    height: 177px;
+    transition: 2s;
+}
+
+figcaption {
+    margin-bottom: 10px;
+    color: #fefefe;
+}
+
+#home-shop-button{
+    text-align: center;
+    margin: 25px 20px 25px 0;
+    padding: 20px 40px;
+    border: none;
+    background-color: #e9b3aa;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: #fefefe;
+}
+
+#home-shop-button:hover{
+    text-decoration: none;
+    color: #fefefe;
+    background-color: #be6f62;
+}
+
+#home-section-2 {
+    background-color: #fefefe;
+    background-attachment: scroll;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonial{
+    margin: 25px auto;
+    width: 750px;
+    display: flex;
+}
+
+.testimonial-text{
+    padding: 50px;
+    margin-right: 50px;
+    border-right: 1px solid #010101;
+    font-family: 'Playfair Display', serif;
+}
+
+.home-testimonial-profile-pic {
+    margin-top: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+
+
+#home-section-3 {
+    background-image: url("../img/tropical_plant.jpeg");
+    background-attachment: fixed;
+}
