@@ -1,0 +1,36 @@
+body, .text-secondary {
+    color: white;
+}
+
+.btn-left {
+    text-align: left;
+}
+
+.display-6 {
+    font-family: "Playfair Display", serif;
+}
+/*
+.carousel-caption h5 {
+    font-size: 3em;
+    font-family: "Playfair Display", serif;
+}
+*/
+
+.header-img.one {
+    background-image: url("../img/flower-2.jpeg");
+}
+
+.header-img.two {
+    background-image: url("../img/plants_ground.jpeg");
+}
+
+.header-img.three {
+    background-image: url("../img/plants_ground.jpeg");
+}
+
+
+.pink-bg-color {
+    background-color: #e9b3aa;
+}
+
+/*# sourceMappingURL=shop_style.css.map */

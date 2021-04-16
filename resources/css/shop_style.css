@@ -1,95 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-body {
-  background-color: #38383b;
+.header-img.one {
+  background-image: url("../img/Dia1.jpeg");
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-.title {
-  font-family: "Playfair Display", serif;
-}
-
-.body {
-  font-family: "Playfair Display", serif;
-  font-size: 1.2em;
-}
-
-a.header-but {
-  background-color: #e9b3aa;
-  padding: 20px 40px;
-  color: white;
-  font-family: "Playfair Display", serif;
-  transition: 1s;
-}
-a.header-but:hover {
-  text-decoration: none;
-  background-color: #be6f62;
-}
-
-a.main-but {
-  background-color: #e9b3aa;
-  padding: 12px 25px;
-  color: white;
-  font-family: "Playfair Display", serif;
-  transition: 1s;
-  margin: 5px;
-}
-a.main-but:hover {
-  text-decoration: none;
-  background-color: #be6f62;
-}
-
-.header-img {
-  padding: 0;
-  height: 600px;
+.header-img.two {
   background-image: url("../img/plants_ground.jpeg");
-  background-size: cover;
-  background-position: center center;
 }
 
-.carousel-item .shade {
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  height: 600px;
-}
-.carousel-item .carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carousel-item .carousel-caption h5 {
-  font-size: 3em;
-  font-family: "Playfair Display", serif;
+.header-img.three {
+  background-image: url("../img/plants_ground.jpeg");
 }
 
-.navbar {
-  position: absolute;
-  z-index: 5;
-  background-color: none;
-}
-.navbar .nav-link {
-  color: white;
-  font-family: "Playfair Display", serif;
-}
-.navbar .nav-link:hover {
-  color: #be6f62;
-}
-
-/*#navigation {
-  position: absolute;
-  width: 100%;
-  z-index: 5;
-  top:0px;
-
-  .navbar {
-    padding:30px 30px;
-  }
-  position: relative;
-  background-color: blue;
-  color:white;
-
-}*/
 .partners {
   color: white;
   padding-top: 50px;
@@ -100,11 +20,30 @@ a.main-but:hover {
   font-family: "Playfair Display", serif;
   color: white;
 }
+.cards .content p {
+  font-family: "Helvetica Neue" !important;
+  font-weight: lighter;
+}
 .cards .content .cards-image {
   width: 100%;
   height: 50vh;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
+}
+.cards .content .cards-image div {
+  background-color: black;
+  height: 100%;
+  opacity: 0;
+  transition: 0.2s;
+}
+.cards .content .cards-image div p {
+  padding: 0 30px;
+  display: block;
+  position: absolute;
+  top: 30%;
+}
+.cards .content .cards-image div:hover {
+  opacity: 0.8;
 }
 .cards .content .img1 {
   background-image: url("../img/flower-1.jpeg");
@@ -150,17 +89,6 @@ a.main-but:hover {
 
 .btn {
   border-radius: none !important;
-}
-
-@media only screen and (max-width: 992px) {
-  .navbar {
-    position: relative;
-    z-index: 5;
-    background-color: #191919;
-  }
-  .navbar .nav-link {
-    color: red;
-  }
 }
 
 /*# sourceMappingURL=shop_style.css.map */
