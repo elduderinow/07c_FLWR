@@ -1,64 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-.title {
-  font-family: "Playfair Display", serif;
-}
-
-a.header-but {
-  background-color: #e9b3aa;
-  padding: 20px 40px;
+.partners {
   color: white;
+  padding-top: 50px;
+}
+
+.cards .content {
+  padding: 10px;
   font-family: "Playfair Display", serif;
-  transition: 1s;
-}
-a.header-but:hover {
-  text-decoration: none;
-  background-color: #be6f62;
-}
-
-.header-img {
-  height: 600px;
-  background-image: url("../img/plants_ground.jpeg");
-  background-size: cover;
-}
-
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carousel-caption h5 {
-  font-size: 3em;
-  font-family: "Playfair Display", serif;
-}
-
-.navbar {
-  position: absolute;
-  z-index: 5;
-  background-color: none;
-}
-.navbar .nav-link {
   color: white;
 }
-
-/*#navigation {
-  position: absolute;
+.cards .content .cards-image {
   width: 100%;
-  z-index: 5;
-  top:0px;
-
-  .navbar {
-    padding:30px 30px;
-  }
-  position: relative;
-  background-color: blue;
-  color:white;
-
-}*/
-.cards .cards-image {
-  width: 100%;
-  height: 150px;
-  margin: 10px 0;
-  background-image: url("../img/tropical_plant.jpeg");
+  height: 50vh;
   background-size: cover;
+  background-position: center top;
+}
+.cards .content .img1 {
+  background-image: url("../img/flower-1.jpeg");
+}
+.cards .content .img2 {
+  background-image: url("../img/flower-3.jpeg");
+}
+.cards .content .img3 {
+  background-image: url("../img/flower-4.jpeg");
+}
+.cards .content .img4 {
+  background-image: url("../img/plant_4.png");
+}
+.cards .content .img5 {
+  background-image: url("../img/plant_1.png");
+}
+.cards .content .img6 {
+  background-image: url("../img/flower-2.jpeg");
+}
+.cards .content .img7 {
+  background-image: url("../img/flower-6.jpeg");
+}
+.cards .content .img8 {
+  background-image: url("../img/flower-5.jpeg");
+}
+.cards .content h2 {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  color: white;
+}
+.cards caption {
+  padding: 10px;
 }
 .cards a {
   background-color: #e9b3aa;
@@ -72,17 +58,6 @@ a.header-but:hover {
 
 .btn {
   border-radius: none !important;
-}
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    position: relative;
-    z-index: 5;
-    background-color: #191919;
-  }
-  .navbar .nav-link {
-    color: red;
-  }
 }
 
 /*# sourceMappingURL=shop_style.css.map */

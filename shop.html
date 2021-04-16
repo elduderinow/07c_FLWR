@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
+    <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/shop_style.css">
 </head>
 <body>
@@ -19,69 +20,41 @@
     <!-- header -->
 
     <div id="navigation" class="row">
-        <!--<nav class="navbar navbar-expand-md  text-white w-100">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <div class="col-md-4 p-0">
-                    <img width="100" src="resources/img/flwr-02.png">
-                </div>
-
-                <ul class="title navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="shop.html">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="details.html">Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="account.html">Account</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="about.html">About Us</a>
-                    </li>
-                </ul>
-
-
-            </div>
-        </nav>-->
         <nav class="navbar navbar-expand-lg w-100 p-4">
             <img width="100" class="navbar-brand" src="resources/img/flwr-02.png">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="details.html">Details</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Account
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">New</a>
+                            <a class="dropdown-item" href="#">Favorites</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -104,20 +77,20 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="header-img col">
-
+                        <div class="header-img one col">
+                            <div class="shade"></div>
                         </div>
 
                         <div class="carousel-caption d-md-block m-4">
                             <h5>Exclusive flowers and plants.</h5><br><br>
 
-                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
+                            <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <div class="header-img col">
-
+                        <div class="header-img two col">
+                            <div class="shade"></div>
                         </div>
 
                         <div class="carousel-caption d-none d-md-block m-4">
@@ -128,8 +101,8 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div class="header-img col">
-
+                        <div class="header-img three col">
+                            <div class="shade"></div>
                         </div>
 
                         <div class="carousel-caption d-none d-md-block m-4">
@@ -138,14 +111,9 @@
                             <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
                         </div>
                     </div>
-
-
 
 
                 </div>
-
-
-
 
 
             </div>
@@ -155,151 +123,134 @@
     <!-- End Header -->
 
     <!-- Main -->
-    <div class="row">
+    <main class="row">
 
         <div class="col d-grid">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4 text-center m-auto">
-                    <h2 class="title">Our Partners</h2>
-                    <p>Some logos here</p>
+            <section id="ourplants" class="partners row">
+                <div class="col-sm-12 col-md-8 p-4 text-center m-auto">
+                    <h2 class="title">Our plants and flowers</h2>
+                    <p class="body p-3">Thriving indoor plants, selected by the bestest green finger people. Ni goekoop ze makker!</p>
                 </div>
-            </div>
+            </section>
 
             <div class="cards row">
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img1"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img2"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img3"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img4"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards row">
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img5"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img6"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img7"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 bg-white p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 p-4">
                     <div class="row">
-                        <div class="col content text-left flex-column d-flex m-4 shadow-lg">
-                            <div class="cards-image"></div>
+                        <div class="col content text-center flex-column d-flex m-4">
+                            <div class="cards-image img8"></div>
+                            <div class="p-3">
+                                <h2 class="display-6 pb-3  mt-3 mb-4">Alocasia<br>
+                                    Price: 2000$</h2>
 
-                            <h3 class="display-6 pb-3 text-secondary mt-4">Alocasia</h3>
-                            <p>Price: 2000$</p>
-                            <p class="text-secondary">Ni goekoop ze makker!<br><br>Alocasia is een geslacht uit de aronskelkfamilie. Het geslacht
-                                telt
-                                negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                                Oost-Australië.</p>
-                            <a class="btn m-4" href="#rainbow" role="button">View</a>
+                                <a class="main-but flex-column" href="#rainbow" role="button">MORE INFO</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
-    </div>
+    </main>
     <!-- End Main -->
 
 
