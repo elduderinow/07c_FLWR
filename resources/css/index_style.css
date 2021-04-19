@@ -1,161 +1,121 @@
-/*   FONTS AND RESET   */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header-img {
+    background-image: url("../img/home-bg-test.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-body {
-    overflow-x: hidden;
+.navbar-dark{
+    background-color: transparent;
 }
 
-/*   HEADER STYLING   */
-
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.navbarShowColor{
-    background-color: #191919;
-}
-
-.logoSmallHide{
+.navbar-brand {
     display: none;
 }
 
-.logoSmallShow{
-    display: block;
-    transition: 2s;
+.partners {
+    color: white;
+    padding-top: 50px;
 }
 
-/*   SECTION STYLING   */
-
-section {
-    min-height: 105vh;
-}
-
-#home-section-1 {
-    background-image: url("../img/home-bg-test.jpg");
-    background-size: cover;
-    background-position: bottom right;
-    background-attachment: fixed;
-    width: 100vw;
-}
-
-figure{
-    display: block;
-    margin: 0 auto;
-    margin-top: 40vh;
-    width: 100vw;
-    text-align: center;
-}
-
-#home-logo{
-    width: 569px;
-    height: 177px;
-    text-align: center;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #fefefe;
-}
-
-#button-toShop{
-    text-align: center;
-    margin: 0 auto;
-}
-
-figcaption {
-    text-transform: uppercase;
-    color: #fefefe;
-    margin-bottom: 30px;
-}
-
-#home-section-2 {
-    background-color: #212529;
-    background-attachment: scroll;
-    color: #fefefe;
-}
-
-h1{
+.cards .content {
+    padding: 10px;
     font-family: "Playfair Display", serif;
-    margin-top: 50px;
-    text-align: center;
+    color: white;
 }
-
-
-#testimonial-box{
-    margin: 100px auto;
-    display: flex;
-    width: 90%;
-}
-
-.testimonial{
-    position: relative;
-    margin: 25px auto;
-    padding: 25px;
-    width: 90%;
-    height: 450px;
-    display: flex;
-    margin-right: 30px;
-    border-right: 1px solid #010101;
-    font-family: 'Playfair Display', serif;
-}
-
-.testimonial p{
+.cards .content .price {
     font-family: "Helvetica Neue", sans-serif;
-    font-weight: light;
+    font-weight: lighter;
+}
+.cards .content .cards-image {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+}
+.cards .content .cards-image div {
+    background-color: black;
+    height: 100%;
+    opacity: 0;
+    transition: 0.2s;
+}
+.cards .content .cards-image div p {
+    padding: 0 30px;
+    display: block;
+    position: absolute;
+    top: 30%;
+}
+.cards .content .cards-image div:hover {
+    opacity: 0.8;
+}
+.cards .content .img1 {
+    background-image: url("../img/shop/spring.jpg");
+}
+.cards .content .img2 {
+    background-image: url("../img/shop/pretty-green.jpg");
+}
+.cards .content .img3 {
+    background-image: url("../img/shop/deluxe.jpg");
+}
+.cards .content .img4 {
+    background-image: url("../img/shop/evolving-hues.jpg");
+}
+.cards .content .img5 {
+    background-image: url("../img/shop/atelier.jpg");
+}
+.cards .content .img6 {
+    background-image: url("../img/shop/astro-spring.jpg");
+}
+.cards .content .img7 {
+    background-image: url("../img/shop/eternal-blush.jpg");
+}
+.cards .content .img8 {
+    background-image: url("../img/shop/firestone.jpg");
+}
+.cards .content h2 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: white;
+}
+.cards caption {
+    padding: 10px;
 }
 
-.home-testimonial-profile-pic {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    position: relative;
+#partners {
+    color:white;
+  }
+
+#partners ul {
+    padding-left:0px;
+}
+
+#partners ul li {
+    display: inline;
+    padding:40px;
 }
 
 .flex-name-img {
-    display: flex;
-    margin: auto 0;
-    position: absolute;
-    bottom: 0;
-}
-
-.quote-large{
-    width: 100%;
-    margin-right: 30px;
-}
-
-h3{
-    font-size: 30px;
-    margin-left: 15px;
-}
-
-#home-section-3 {
-    background-image: url("../img/home-bg-3.jpg");
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-image: url("../img/home-dokter-pic.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom center;
+    background-position: center center;
 }
 
-@media (max-width: 800px) {
-    #testimonial-box{
-        flex-wrap: wrap;
-    }
+.header-content hr {
+    border:none ;
+    border-bottom:2px solid white;
+    width: 200px;
+    padding:10px 0;
 }
 
-@media (min-width: 200px) and (max-width: 600px){
-    figure {
-        width: 190px;
-    }
-    #home-logo{
-        width: 190px;
-        height: 91px;
-    }
+.header-content h5 {
+    font-size:2rem !important;
+}
+
+.carousel-item .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,348 +13,187 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
     <link rel="stylesheet" href="resources/css/global.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style-about.css">
-
-    <!--icon link below PI-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="resources/css/style-about.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
 </head>
-
 <body>
-<!-- header -->
 <div class="container-fluid">
-    <div id="navigation" class="row">
 
-        <nav class="navbar navbar-expand-lg w-100 p-4">
-            <img width="100" class="navbar-brand" src="resources/img/flwr-02.png " title="hover text">
+    <!-- header -->
+    <header>
+        <div id="navigation" class="row">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar navbar-dark navbar-expand-lg w-100 p-4">
+                <a href="index.html"><img width="100" class="navbar-brand" src="resources/img/flwr-02.png"
+                                          alt="flower logo image"></a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                    </li>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="details.html">Details</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Account
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">New</a>
-                            <a class="dropdown-item" href="#">Favorites</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="account.html">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-active active" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-twitter fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-pinterest fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-youtube fa-lg"></i></a></li>
+                            <!--  <li><a href="#"></a><i class="fa fa-shopping-cart fa-lg"></i></a></li>-->
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+        <div class="carousel row">
+            <div class="bd-example w-100">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="header-img one col">
+                                <div class="shade"></div>
+                            </div>
+
+                            <div class="carousel-caption d-md-block m-4">
+                                <h5>Inspirational quote</h5><br><br>
+                                <p>- author</p>
+                            </div>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+
+                    </div>
+
+
+                </div>
             </div>
-        </nav>
-    </div>
-
-
-        <div class=" header-img col-sm-12 w-100">
-            <figure class="text-center pt-4 >
-                <blockquote class=" blockquote">
-            <p class="my-5 pt-5 ">“Life is the flower for which love is the honey.” </p>
-            </blockquote>
-
-            <figcaption class="blockquote-footer">
-                <cite title="Source Title">Victor Hugo</cite>
-            </figcaption>
-            </figure>
-
 
         </div>
-
-
+    </header>
     <!-- End Header -->
 
-
-    <!-- ABOUT US-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 w-100">
-    <section class="main-heading my-5 about_us">
-        <div class="">
-            <h1 class="text-center text-light display-4 about_us"> About us</h1>
-            <hr class="w-25 mx-auto">
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
-                    <figure>
-                        <img src="resources/img/about.jpeg" alt="about image" class="img-fluid about_img">
-                    </figure>
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 col-xxl-6 col-xxl-§ d-flex justify-content-center align-items-start flex-column">
-                    <h1 class="text-light"> Our Journey </h1>
-                    <p class="text-light "><em><q>FLWR</q> </em> Propelled by our affection for flowers and energy about
-                        nature, it is our obsession to make creative and noteworthy plant and new flower courses of
-                        action.
-                        We trust that the best, freshest flowers deliver the most noteworthy presentations.</p>
-                    <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right"
-                            title="Who are we">
-                        Check more
-                    </button>
-
-                </div>
-
-            </div>
-
-
-        </div>
-    </section>
-    <!-- END ABOUT US-->
-
-
-    <!-- Video -->
-    <section class="main-heading my-5 py-2 offer_style">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-12 col-12 py-4 text-center">
-                    <h1 class="text-white"> Check out more Videos</h1>
-                    <hr class="w-25 mx-auto">
-                    <br>
-                    <p> "Never give up on something that you can't go a day without thinking about."</p>
-                    <a href="https://www.youtube.com/results?search_query=bootstrap+5" target="_blank">
-                        <button type="button" class="btn btn-outline-info" data-toggle="tooltip" data-placement="right"
-                                title="Here">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                 class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                            </svg>
-                            Videos
-                        </button>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Video-->
-
-    <!-- Contact -->
-    <hr class="" w-100>
-    <section class="main-heading my-5 py-5">
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xxl-12 col-12 text-center contact_us">
-                    <h1 class="text-white "> Contact us</h1>
-                    <hr class=" w-25 mx-auto">
-                    <img width="100%" src="resources/img/contact.jpeg" height="700">
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End contact-->
     <!-- Main -->
+    <main class="row">
 
+        <!--Yarrut -->
+        <div class="container team-area">
+            <div class="row single-team">
+                <div class="col-sm-2 col-lg-2 created_by">
+                    <img src="resources/img/yar.jpg" alt="Yarrut">
+                    <div class="team-txt">
+                        <h2>Yarrut</h2>
+                        <p>Junior Web Developer @ Becode</p>
+                        <p>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <main class="row ">
-        <section class="col-md-12">
-            <!-- quote -->
-            <figure class="text-center pt-4 >
-                <blockquote class=" blockquote
-            ">
-            <p class="buddha">
-                <ins></ins>
-            </p>
-            </blockquote>
-
-            </figure>
-
-        </section>
-        <!-- Contact us -->
-
-
-        <section class="col-md-6 ">
-            <p class="text-secondary ">
-                Fill up the contact form below and well do our best to reply in 24 hours.<br>
-                Alternatively simply pick up the phone and give us a call.
-            </p>
-            <hr>
-
-            <form action="">
-                <section class="form-row">
-
-                    <section class="form-group col-md-6">
-                        <input type="text" class="form-control" placeholder="Full name *">
-
-                    </section>
-                    <section class="form-group col-md-6">
-                        <input type="text" class="form-control" placeholder="Email Address*">
-
-                    </section>
-                </section>
-
-                <section class="form-row">
-
-                    <section class="form-group col-md-6">
-                        <input type="number" class="form-control" placeholder="Phone Number*">
-
-                    </section>
-                    <section class="form-group col-md-6">
-
-                        <!-- country -->
-                        <select class="form-control">
-                            <option selected>Country</option>
-                            <option value="1">Belgium</option>
-                            <option value="2">Netherlands</option>
-                            <option value="3">Franch</option>
-                            <option value="1">Germany</option>
-                            <option value="2">Spain</option>
-                            <option value="3">Italy</option>
-                            <option value="1">Luxembourg</option>
-                            <option value="2">Portugal</option>
-                            <option value="3">Finland</option>
-                            <option value="1">Latvia</option>
-                            <option value="2">Lithuania</option>
-                            <option value="3">Malta</option>
-                            <option value="1">Poland</option>
-                            <option value="2">Portugal</option>
-                            <option value="3">Romania</option>
-                            <option value="1">Slovakia</option>
-                            <option value="2">Slovenia</option>
-                            <option value="3">Sweden</option>
-                        </select>
-                    </section>
-
-            </form>
-        </section>
-
-                    <section class="form-group col-md-12">
-                        <input type="text" class="form-control" placeholder="Subject*">
-
-                    </section>
-                    <section class="form-group col-md-12">
-                        <textarea class="form-control" rows="10"></textarea>
-                    </section>
-                    <section class="form-row">
-                        <section class="form-group col-md-12 text-center ">
-                            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
-                                Send message
-                            </button>
-                        </section>
-
-                    </section>
-                </section>
-            </form>
-        </section>
-
-        <section class="col-md-6 ">
-            <section class="col-md-6">
-            </section>
-            <section class="col-md-6 address">
-                <h6 class="p-3 mb-2  text-white"> Call us/WhatsApp</h6>
-                <p><a href="tel : +32 1 111 11 11"> <i class="fa fa-phone"></i> (+32 1 111 11 11) </a> <br>
-                </p>
-                <!-- social media -->
-
-                <!-- Add font awesome icons -->
-                <h6 class="p-3 mb-2 text-white"> Follow us </h6>
-                <a href="https://www.facebook.com/marketplace/category/plants/" target="_blank"
-                   class="fa fa-facebook"></a>
-                <a href="https://twitter.com/NaturePlants?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                   target="_blank" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com/theplantcorner/?hl=en" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=plant%20decor&eq=plant&etslf=1274&term_meta[]=plant%7Cautocomplete%7C0&term_meta[]=decor%7Cautocomplete%7C0"
-                   target="_blank" class="fa fa-pinterest"></a>
-                <a href="https://www.youtube.com/results?search_query=plants+" target="_blank"
-                   class="fa fa-youtube"></a>
-
-                <!-- social media -->
-
-
-                <h6 class="text-light pt-4 pl-1 ml-2"> Email </h6>
-                <p>
-                    <a href="mailto:flwr@example.com"> <i class="fa fa-envelope"></i> mail@example.com</a>
-                </p>
-                <h6 class="p-3 mb-2 text-white pl-1"> Working hours </h6>
-                <p class="text-secondary pl-3">
-                    Everyday : 08h-19h (CEST)
-                </p>
-
-                <h6 class="p-3 mb-2 text-white">Address</h6>
-                <p class="text-secondary pl-3">
-                    Bloemlaan ,Antwerp - 2000, Belgium
-                </p>
-                <!-- Map -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18
-!1m12!1m3!1d319587.2092808874!2d4.077521321921822!3d51.
-26005062512755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!
-3m3!1m2!1s0x47c3f68ebfc3887d%3A0x3eaf448482a88ab8!2sAntw
-erp!5e0!3m2!1sen!2sbe!4v1618514433470!5m2!1sen!2sbe" width="280" height="150" style="border:0;
-" allowfullscreen="" loading="lazy"></iframe>
-                <!-- Map -->
-
-            </section>
-        </section>
-
-        <section class="col-md-12 bg-dark">
-            <section class="col-md-12">
-
-
-            </section>
-        </section>
-
+        </div>
     </main>
     <!-- End Main -->
 
+</div>
+<!-- Footer -->
+<footer class="container-fluid">
+    <div class="footer row">
+        <div class="col-sm-12 col-md-6">
+            <section class="subscription">
+                <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
+                <form action="#" class="row flex-fill">
+                    <input class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
+                    <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
 
-    <!-- Footer -->
-    <footer class="row">
-        <section class="col-sm bg-primary w-100">
-            footer
-        </section>
-    </footer>
-    <!-- END Footer -->
+        <div class="contact-link col-sm col-md-6">
+            <div class="row">
 
 
-    <!-- Optional JavaScript -->
-    <script>
-        $(document).ready(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
+                <section class="link col-sm-6 col-md-6">
+                    <h3 class="title">Direct</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Details</a></li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">About us</a></li>
 
-    </script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    </script>
+                    </ul>
+                </section>
 
+                <section class="contact col-sm-6 col-md-6">
+                    <img width="80" src="resources/img/flwr-02.png" alt="flwr company logo">
+                    <address>Flower street 123<br>
+                        2000 Antwerpen<br>
+                        Belgium<br></address>
+
+                    <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
+                    <tel>0489 33 37 82</tel>
+
+
+                </section>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="links row">
+        <div class="col-sm col-md w-100">
+            <section>
+                <ul class="d-flex">
+                    <li class="col-sm"><a href="">©2021 FLWR co.</a></li>
+                    <li class="col-sm"><a href="">Shipping & Refunds</a></li>
+                    <li class="col-sm"><a href="">Privacy Policy</a></li>
+                    <li class="col-sm"><a href="">Cookie Policy</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+
+
+<!-- Optional JavaScript -->
+<script src="resources/js/index.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.3/js/v4-shims.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
