@@ -14,155 +14,195 @@
     <!-- Extra links -->
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/account.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+
 </head>
 <body>
 <!-- header -->
 <div class="container-fluid">
-    <div id="navigation" class="row">
+    <header>
+        <div id="navigation" class="row">
 
-        <nav class="navbar navbar-expand-lg w-100 p-4">
-            <img width="100" class="navbar-brand" src="resources/img/flwr-02.png">
+            <nav class="navbar navbar-dark navbar-expand-lg w-100 p-4">
+                <a href="index.html"><img width="100" class="navbar-brand" src="resources/img/flwr-02.png"
+                                          alt="flower logo image"></a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="details.html">Details</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Account
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">New</a>
-                            <a class="dropdown-item" href="#">Favorites</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="details.html">Details</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link link-active" href="account.html">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-twitter fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-pinterest fa-lg"></i></a></li>
+                            <li><a href="#"></a><i class="fa fa-youtube fa-lg"></i></a></li>
+                            <!--  <li><a href="#"></a><i class="fa fa-shopping-cart fa-lg"></i></a></li>-->
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+        </div>
+        <div class="carousel row">
+            <div class="bd-example w-100">
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="header-img one col">
+                                <div class="shade"></div>
+                            </div>
+
+                            <div class="carousel-caption d-md-block m-4">
+                                <h5>Exclusive flowers and plants.</h5><br><br>
+
+                                <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
+                            </div>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+
+                    </div>
+
+
+                </div>
             </div>
-        </nav>
-    </div>
+
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main>
+        <div align="center">
+            <h3 text-align="center"><span>Useful Tips</span></h3>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/Jh5oX0VRnzk" allowfullscreen
+                    frameborder="1"></iframe>
+            <h3 text-align="center"><span>My Account</span></h3>
+            <!--form section starts-->
+            <form method="post" action="xxx.com">
+                <p>My Name<br/><input name="name" type="text" value="" placeholder="Please enter your name"
+                                      autocomplete="none"></p>
+                <p>My Telephone<br/><input name="tel" type="tel" value="" placeholder="Please enter your tel"></p>
+                <p>My GSM<br/><input name="gsm" type="tel" value="" placeholder="Please enter your GSM"></p>
+                <p>My Address<br/><input name="address" type="text" value="" placeholder="Please enter your address">
+                </p>
+                <p>My Email<br/><input name="email" type="email" value="" placeholder="Please enter your email"></p>
+                <p>Make an appointment with us <br/><input name="appointment" type="datetime-local" value=""
+                                                           placeholder=""></p>
+                <p>My favourite package color<br/>(We will choose the closest color to your favourite)<br/><input
+                        name="package" type="color" value="" placeholder=""></p>
+                <p class="reason">For what occasions do you buy our flowers?<br/>
+                    <input name="birthday" type="checkbox">Birthday<br/>
+                    <input name="birth" type="checkbox">Birth<br/>
+                    <input name="health" type="checkbox">Getting well<br/>
+                    <input name="love" type="checkbox">Love & Romance<br/>
+                    <input name="wedding" type="checkbox">Wedding & Anniversary<br/>
+                    <input name="others" type="checkbox">Other Reasons<br/>
+                    <textarea name="others" placeholder="Please enter the occasions here"></textarea></p>
+                <p>Leave a message to us<br/><textarea name="message"
+                                                       placeholder="Please enter your message"></textarea></p>
+                <p><input name="create your account" type="submit" value="create account"> <input name="reset"
+                                                                                                  type="reset"
+                                                                                                  value="delete and reset">
+                </p>
+                <hr/>
+            </form>
+            <!--form section ends-->
+        </div>
+    </main>
+    <!-- End Main -->
+</div>
 
 
-    <div class="carousel row">
-        <div class="bd-example w-100">
-            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
+    <!-- Footer -->
+    <footer class="container-fluid">
+        <div class="footer row">
+            <div class="col-sm-12 col-md-6">
+                <section class="subscription">
+                    <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
+                    <form action="#" class="row flex-fill">
+                        <input class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
+                        <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
+                    </form>
+                </section>
+            </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="header-img one col">
-                            <div class="shade"></div>
-                        </div>
+            <div class="contact-link col-sm col-md-6">
+                <div class="row">
 
-                        <div class="carousel-caption d-md-block m-4">
-                            <h5>Exclusive flowers and plants.</h5><br><br>
 
-                            <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
-                        </div>
-                    </div>
+                    <section class="link col-sm-6 col-md-6">
+                        <h3 class="title">Direct</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Details</a></li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">About us</a></li>
 
-                    <div class="carousel-item">
-                        <div class="header-img two col">
-                            <div class="shade"></div>
-                        </div>
+                        </ul>
+                    </section>
 
-                        <div class="carousel-caption d-none d-md-block m-4">
-                            <h5>Exclusive flowers and plants.</h5><br><br>
+                    <section class="contact col-sm-6 col-md-6">
+                        <img width="80" src="resources/img/flwr-02.png" alt="flwr company logo">
+                        <address>Flower street 123<br>
+                            2000 Antwerpen<br>
+                            Belgium<br></address>
 
-                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
-                        </div>
-                    </div>
+                        <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
+                        <tel>0489 33 37 82</tel>
 
-                    <div class="carousel-item">
-                        <div class="header-img three col">
-                            <div class="shade"></div>
-                        </div>
 
-                        <div class="carousel-caption d-none d-md-block m-4">
-                            <h5>Exclusive flowers and plants.</h5><br><br>
-
-                            <a class="header-but" href="#rainbow" role="button">BUY FLWR</a>
-                        </div>
-                    </div>
-
+                    </section>
 
                 </div>
 
 
             </div>
+
         </div>
-
-    </div>
-
-<!-- End Header -->
-
-<!-- Main -->
-<main>
-    <div align="center">
-            <h3 text-align="center"><span>Useful Tips</span></h3>
-            <iframe width="480" height="270" src="https://www.youtube.com/embed/Jh5oX0VRnzk" allowfullscreen frameborder="1"></iframe>
-            <h3 text-align="center"><span>My Account</span></h3>
-            <!--form section starts-->
-            <form method="post" action="xxx.com">
-                <p>My Name<br /><input name="name" type="text" value="" placeholder="Please enter your name" autocomplete="none"></p>
-                <p>My Telephone<br /><input name="tel" type="tel" value="" placeholder="Please enter your tel"></p>
-                <p>My GSM<br /><input name="gsm" type="tel" value="" placeholder="Please enter your GSM"></p>
-                <p>My Address<br /><input name="address" type="text" value="" placeholder="Please enter your address"></p>
-                <p>My Email<br /><input name="email" type="email" value="" placeholder="Please enter your email"></p>
-                <p>Make an appointment with us <br /><input name="appointment" type="datetime-local" value="" placeholder=""></p>
-                <p>My favourite package color<br />(We will choose the closest color to your favourite)<br /><input name="package" type="color" value="" placeholder=""></p>
-                <p class="reason">For what occasions do you buy our flowers?<br />
-                    <input name="birthday" type="checkbox">Birthday<br />
-                    <input name="birth" type="checkbox">Birth<br />
-                    <input name="health" type="checkbox">Getting well<br />
-                    <input name="love" type="checkbox">Love & Romance<br />
-                    <input name="wedding" type="checkbox">Wedding & Anniversary<br />
-                    <input name="others" type="checkbox">Other Reasons<br />
-                    <textarea name="others" placeholder="Please enter the occasions here"></textarea></p>
-                <p>Leave a message to us<br /><textarea name="message" placeholder="Please enter your message"></textarea></p>
-                <p><input name="create your account" type="submit" value="create account"> <input name="reset" type="reset" value="delete and reset"></p>
-            <hr />
-            </form>
-            <!--form section ends-->
+        <div class="links row">
+            <div class="col-sm col-md w-100">
+                <section>
+                    <ul class="d-flex">
+                        <li class="col-sm"><a href="">©2021 FLWR co.</a></li>
+                        <li class="col-sm"><a href="">Shipping & Refunds</a></li>
+                        <li class="col-sm"><a href="">Privacy Policy</a></li>
+                        <li class="col-sm"><a href="">Cookie Policy</a></li>
+                    </ul>
+                </section>
+            </div>
         </div>
-</main>
-<!-- End Main -->
+    </footer>
+    <!-- END Footer -->
 
 
-<!-- Footer -->
-<footer class="row">
-    <div class="col-sm bg-primary w-100">
-        footer
-    </div>
-</footer>
-<!-- END Footer -->
-</div>
 
 <!-- Optional JavaScript -->
 <script>
