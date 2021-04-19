@@ -1,3 +1,10 @@
 main{
     color:#fefefe;
 }
+.reason{
+    margin: auto;
+    width: 200px;
+    border: 1px solid grey();
+    padding: 0px;
+    text-align:left;
+}
