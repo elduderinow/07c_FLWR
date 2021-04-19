@@ -6,8 +6,7 @@ const navbar = document.querySelector('.navbar')
 
 window.onscroll = function(){
     let top = window.scrollY;
-    console.log(top);
-    if (top >= 925){
+    if (top >= 750){
         logoSmall.classList.remove('logoSmallHide');
         logoSmall.classList.add('logoSmallShow');
         navbar.classList.add('navbarShowColor');
