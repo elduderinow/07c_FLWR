@@ -20,7 +20,7 @@
   font-family: "Playfair Display", serif;
   color: white;
 }
-.cards .content p {
+.cards .content .price {
   font-family: "Helvetica Neue" !important;
   font-weight: lighter;
 }
@@ -76,15 +76,6 @@
 }
 .cards caption {
   padding: 10px;
-}
-.cards a {
-  background-color: #e9b3aa;
-  color: white;
-  font-family: "Playfair Display", serif;
-}
-.cards a:hover {
-  background-color: #be6f62;
-  color: white;
 }
 
 .btn {

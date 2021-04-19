@@ -23,7 +23,7 @@
     font-family: "Playfair Display", serif;
     color: white;
 
-    p {
+    .price {
       font-family: "Helvetica Neue" !important;
       font-weight:lighter;
     }
@@ -104,16 +104,7 @@
     padding: 10px;
   }
 
-  a {
-    background-color: #e9b3aa;
-    color: white;
-    font-family: 'Playfair Display', serif;
 
-    &:hover {
-      background-color: #be6f62;
-      color: white;
-    }
-  }
 }
 
 

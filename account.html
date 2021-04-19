@@ -123,39 +123,34 @@
 <!-- End Header -->
 
 <!-- Main -->
-<main class="row ">
-    <div class="col-sm-12 col-md-6">
-        <img width="400" src="resources/img/flower-1.jpeg">
-    </div>
-    <div class="col-sm-12 col-md-6">
-        <div>
-            <h3 align="center">My Account</h3>
-            <form class="container-fluid" action="/" method="post">
-                <div>
-                    <label>My Name</label>
-                    <input type="text" placeholder="Please Enter Your Name" required autocomplete="off">
-                </div>
-                <div>
-                    <label>Email ID</label>
-                    <input type="email" placeholder="Please Enter Your Email " required autocomplete="off">
-                </div>
-                <div>
-                    <label>Mobile No.</label>
-                    <input type="tel" placeholder="Please Enter Your GSM Number">
-                </div>
-                <div>
-                    <label>Message</label>
-                    <textarea id="msg" placeholder="Leave A Message To Us" required autocomplete="off"></textarea>
-                </div>
-                <div>
-                    <label>Email</label>
-                    <a href="mailto:yuntian.zou@hotmail.com" target="_blank">Send An Email To Us</a>
-                </div>
-                <button type="Submit" name="button" value="Submit">Submit</button>
+<main>
+    <div style="background-image:url('resources/img/account.jpg')" align="center">
+            <h3 text-align="center"><span>Useful Tips</span></h3>
+            <iframe width="480" height="270" src="https://www.youtube.com/embed/Jh5oX0VRnzk" allowfullscreen frameborder="1"></iframe>
+            <h3 text-align="center"><span>My Account</span></h3>
+            <!--form section starts-->
+            <form method="post" action="xxx.com">
+                <p>My Name<br /><input name="name" type="text" value="" placeholder="Please enter your name" autocomplete="none"></p>
+                <p>My Telephone<br /><input name="tel" type="tel" value="" placeholder="Please enter your tel"></p>
+                <p>My GSM<br /><input name="gsm" type="tel" value="" placeholder="Please enter your GSM"></p>
+                <p>My Address<br /><input name="address" type="text" value="" placeholder="Please enter your address"></p>
+                <p>My Email<br /><input name="email" type="email" value="" placeholder="Please enter your email"></p>
+                <p>Make an appointment with us <br /><input name="appointment" type="datetime-local" value="" placeholder=""></p>
+                <p>My favourite package color<br />(We will choose the closest color to your favourite)<br /><input name="package" type="color" value="" placeholder=""></p>
+                <p>For what occasions do you buy our flowers?<br />
+                    <input name="birthday" type="checkbox">Birthday<br />
+                    <input name="birth" type="checkbox">Birth<br />
+                    <input name="health" type="checkbox">Getting well<br />
+                    <input name="love" type="checkbox">Love & Romance<br />
+                    <input name="wedding" type="checkbox">Wedding & Anniversary<br />
+                    <input name="others" type="checkbox">Other Reasons<br />
+                    <textarea name="others" placeholder="Please enter the occasions here"></textarea></p>
+                <p>Leave a message to us<br /><textarea name="message" placeholder="Please enter your message"></textarea></p>
+                <p><input name="create your account" type="submit" value="send"> <input name="reset" type="reset" value="delete and reset"></p>
+            <hr />
             </form>
+            <!--form section ends-->
         </div>
-    </div>
-
 </main>
 <!-- End Main -->
 

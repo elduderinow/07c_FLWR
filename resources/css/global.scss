@@ -1,6 +1,8 @@
 /*GLOBAL STYLES*/
 
 $hover-color: #be6f62;
+$btn-base: #e9b3aa;
+$off-white: #fefefe;
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 html {
@@ -8,28 +10,34 @@ html {
 }
 
 body {
-  background-color: #38383b;
+  background-color: #282728;
 }
 
 .title {
   font-family: 'Playfair Display', serif;
 }
 
-.body {
-  font-family: 'Playfair Display', serif;
+.body-font {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
   font-size: 1.2em;
 
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 102, 203, 0.0) !important;
+  background-image: url("data:image/svg+xml;..");
 }
 
 /*END GLOBAL STYLES*/
 
 /*BUTTON STYLES*/
 a.main-but {
-  background-color: #e9b3aa;
+  background-color: black;
   padding: 12px 25px;
-  color: white;
+  color: $off-white;
   font-family: 'Playfair Display', serif;
-  transition: 1s;
+  transition: 0.3s;
   margin: 5px;
 
   &:hover {
@@ -48,7 +56,7 @@ a.main-but {
 
 
   .social-icons {
-    color: white;
+    color: $off-white;
 
     ul li {
       display: inline;
@@ -61,18 +69,17 @@ a.main-but {
         cursor: pointer;
       }
     }
-
-
   }
-
 
   a {
-    padding-left:0 !important;
-    padding-right:0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
   }
+
   .link-active {
-    border-bottom:2px solid white;
-    padding-bottom:5px !important;
+    border-bottom: 2px solid $off-white;
+    padding-bottom: 5px !important;
 
   }
 
@@ -88,8 +95,6 @@ a.main-but {
       color: $hover-color;
     }
   }
-
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -97,10 +102,36 @@ a.main-but {
     position: relative;
     z-index: 5;
     background-color: #191919;
+    width: 100%;
 
-    .nav-link {
-      color: red;
+
+    ul {
+      padding-top: 10px;
     }
+
+    .nav-item {
+      a {
+        margin: 0 !important;
+        padding-top: 10px;
+
+        &.link-active {
+          border: 0;
+        }
+      }
+    }
+
+    .social-icons {
+      margin-top: 20px;
+
+      ul {
+        padding-left: 0;
+
+        li {
+          padding-left: 0;
+        }
+      }
+    }
+
   }
 }
 
@@ -110,7 +141,7 @@ a.main-but {
 a.header-but {
   background-color: #e9b3aa;
   padding: 20px 40px;
-  color: white;
+  color: #fefefe;
   font-family: 'Playfair Display', serif;
   transition: 1s;
 
@@ -122,7 +153,7 @@ a.header-but {
 
 .header-img {
   padding: 0;
-  height: 600px;
+  height: 100vh;
   background-image: url("../img/plants_ground.jpeg");
   background-size: cover;
   background-position: center center;
@@ -132,11 +163,11 @@ a.header-but {
   .shade {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 600px;
+    height: 100vh;
   }
 
   .carousel-caption {
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
 
     h5 {
@@ -147,3 +178,122 @@ a.header-but {
 }
 
 /* END HEADER STYLES*/
+
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #191919;
+  padding: 50px 10px;
+  color: white;
+
+  h3 {
+    font-size:1.5rem;
+  }
+
+  .contact-link {
+   .link {
+     ul {
+       padding-left:0;
+       li {
+         list-style-type: none;
+         a {
+           color:$off-white;
+           transition: 0.3s;
+
+           &:hover {
+             color:$hover-color;
+             text-decoration: none;
+           }
+         }
+       }
+     }
+   }
+  }
+
+  .contact a {
+    color: $btn-base;
+    transition: 0.3s;
+
+    &:hover {
+      color:$hover-color;
+      text-decoration: none;
+    }
+  }
+  .links {
+    text-align: center;
+    padding:60px 10px 0 10px;
+
+    ul {
+      li {
+        display: inline;
+        border-right: 1px solid $off-white;
+
+        &:last-child {
+          border: none;
+        }
+
+        a {
+          color:$off-white;
+        }
+
+      }
+    }
+  }
+
+  section {
+    img {
+      margin-bottom: 15px;
+    }
+  }
+
+  .subscription {
+    padding:0 30px;
+
+    input {
+      height: 50px;
+      border: none;
+
+      &::placeholder {
+        padding-left: 10px;
+      }
+
+      &.input {
+        background-color: #282728;
+        color: $off-white;
+      }
+
+      &.submit {
+        background-color: $btn-base;
+        transition: 0.3s;
+        color: $off-white;
+
+        &:hover {
+          background-color: $hover-color;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 786px) {
+  footer {
+    .contact-link {
+      padding:20px 50px;
+
+      .link {
+        padding-bottom:20px;
+      }
+    }
+  }
+
+  .carousel-item {
+    .carousel-caption {
+      top: 47%;
+      transform: translateY(-50%);
+    }
+  }
+
+}
+
+/*END FOOTER STYLES*/
