@@ -1,5 +1,5 @@
 .header-img.one {
-  background-image: url("../img/bloom.jpeg");
+  background-image: url("../img/shop/bloom.jpeg");
 }
 
 .header-img.two {
@@ -46,28 +46,28 @@
   opacity: 0.8;
 }
 .cards .content .img1 {
-  background-image: url("../img/flower-1.jpeg");
+  background-image: url("../img/shop/spring.jpg");
 }
 .cards .content .img2 {
-  background-image: url("../img/flower-3.jpeg");
+  background-image: url("../img/shop/pretty-green.jpg");
 }
 .cards .content .img3 {
-  background-image: url("../img/flower-4.jpeg");
+  background-image: url("../img/shop/deluxe.jpg");
 }
 .cards .content .img4 {
-  background-image: url("../img/plant_4.png");
+  background-image: url("../img/shop/evolving-hues.jpg");
 }
 .cards .content .img5 {
-  background-image: url("../img/plant_1.png");
+  background-image: url("../img/shop/atelier.jpg");
 }
 .cards .content .img6 {
-  background-image: url("../img/flower-2.jpeg");
+  background-image: url("../img/shop/astro-spring.jpg");
 }
 .cards .content .img7 {
-  background-image: url("../img/flower-6.jpeg");
+  background-image: url("../img/shop/eternal-blush.jpg");
 }
 .cards .content .img8 {
-  background-image: url("../img/flower-5.jpeg");
+  background-image: url("../img/shop/firestone.jpg");
 }
 .cards .content h2 {
   font-size: 1.3em;
