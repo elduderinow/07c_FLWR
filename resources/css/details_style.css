@@ -2,8 +2,17 @@ body, .text-secondary {
     color: white;
 }
 
-.btn-left {
-    text-align: left;
+.carousel-small {
+
+}
+
+.main-but-left-align {
+    background-color: #e9b3aa;
+    padding: 12px 25px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    transition: 1s;
+    margin: 5px;
 }
 
 .display-6 {
@@ -28,9 +37,9 @@ body, .text-secondary {
     background-image: url("../img/plants_ground.jpeg");
 }
 
-
 .pink-bg-color {
     background-color: #e9b3aa;
 }
+
 
 /*# sourceMappingURL=shop_style.css.map */
