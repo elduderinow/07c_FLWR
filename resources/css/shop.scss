@@ -1,3 +1,6 @@
+$off-white: #fefefe;
+$hover-color: #be6f62;
+
 .header-img.one {
   background-image: url("../img/shop/bloom.jpeg");
 }
@@ -9,7 +12,6 @@
 .header-img.three {
   background-image: url("../img/plants_ground.jpeg");
 }
-
 
 
 .partners {
@@ -25,7 +27,7 @@
 
     .price {
       font-family: "Helvetica Neue", sans-serif;
-      font-weight:lighter;
+      font-weight: lighter;
     }
 
 
@@ -39,13 +41,15 @@
         background-color: black;
         height: 100%;
         opacity: 0.0;
-        transition:0.2s;
+        transition: 0.2s;
+
         p {
-          padding:0 30px;
+          padding: 0 30px;
           display: block;
           position: absolute;
-          top:30%;
+          top: 30%;
         }
+
         &:hover {
           opacity: 0.8;
         }
@@ -106,9 +110,5 @@
 
 
 }
-
-
-
-
 
 
