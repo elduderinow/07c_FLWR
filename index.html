@@ -29,9 +29,6 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link currentPage" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="shop.html">Shop</a>
                     </li>
@@ -55,10 +52,13 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-whatsapp fa-lg"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
@@ -68,53 +68,50 @@
 <!-- Main -->
 <main class="row">
 
-    <section id="home-section-1" class="col-lg-12">
+    <section id="home-section-1">
         <figure>
-            <img id="home-logo" src="resources/img/flwr-02.png" alt="FLWR logo in white">
             <figcaption id="figcaption">Where dreams bloom into reality</figcaption>
-            <button id="home-shop-button"><a href="shop.html">SHOP HERE</a></button>
+            <img id="home-logo" src="resources/img/flwr-02.png" alt="FLWR logo in white">
+            <br>
+            <a href="shop.html" id="button-toShop" class="header-but">SHOP HERE</a>
         </figure>
-        <div class="home-partners">
 
-        </div>
+
     </section>
 
-    <section id="home-section-2" class="col-lg-12">
+    <section id="home-section-2">
 
         <h1>Testimonials</h1>
         <div id="testimonial-box">
 
-        <div class="testimonial">
-            <div class="testimonial-text">
-                <h2>Dr. O. Etker</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ea odit quaerat repellat! Ab adipisci alias at aut consequuntur cum dignissimos dolore doloribus ea eaque eligendi eos ex hic ipsa iste magnam magni maiores, minus molestiae molestias necessitatibus nihil nisi, nobis nostrum odio porro quae quam quia, quidem recusandae rerum saepe tempora veniam! Accusantium adipisci alias aliquid animi aspernatur assumenda at autem consectetur, consequatur consequuntur distinctio doloremque ea, earum eius facilis illum ipsa nemo nesciunt nobis obcaecati perspiciatis possimus quam tempora unde, voluptas. Cupiditate dolor, eligendi est exercitationem facilis impedit iste, iusto non, quaerat reiciendis similique totam ut vel voluptatibus.</p>
+            <div class="testimonial">
+                <h2 class="quote-large">"Doctor approved!"</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis earum eius est eum ipsa ipsum iure iusto labore maiores nulla perspiciatis praesentium, quaerat qui repudiandae rerum saepe sequi? Magnam?</p>
+                <div class="flex-name-img">
+                    <img src="resources/img/home-dokter-pic.jpg" alt="" class="home-testimonial-profile-pic">
+                    <h3>Dr. O. Etker</h3>
+                </div>
             </div>
-            <div class="testimonial-img">
-                <img src="resources/img/home-dokter-pic.jpg" alt="" class="home-testimonial-profile-pic">
+
+            <div class="testimonial">
+                <h2 class="quote-large">"Looks great on my fishing boat!"</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem sit suscipit unde! Amet delectus magnam mollitia pariatur quos. At aut consequatur cupiditate doloribus, eligendi error facere illo maiores, minima quas quia similique totam ullam.</p>
+                <div class="flex-name-img">
+                    <img src="resources/img/home-iglo-pic.jpeg" alt="" class="home-testimonial-profile-pic">
+                    <h3>Cap. Tain Iglo</h3>
+                </div>
             </div>
-        </div>
-            <br>
-        <div class="testimonial">
-            <div class="testimonial-text">
-                <h2>Cap. Tain Iglo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid consectetur consequatur, consequuntur cum deleniti dolor dolore dolores ea enim exercitationem fugiat fugit harum libero modi mollitia nostrum odit officiis perferendis porro, praesentium qui quidem quis quod repellat, sed tempore ullam unde vero voluptatem! Aspernatur, dolorum quae. Ad aliquid, aperiam atque consectetur consequuntur cumque cupiditate debitis dicta eligendi error expedita impedit inventore iusto laudantium magni maiores maxime molestiae natus nulla obcaecati porro provident quasi quisquam reiciendis, saepe soluta unde voluptatibus. Eaque nostrum nulla ratione suscipit temporibus. Consequatur corporis dolorum eligendi iste maxime natus vel vitae? Deleniti fugit ipsa ipsum rerum.</p>
-            </div>
-            <div class="testimonial-img">
-                <img src="resources/img/home-iglo-pic.jpeg" alt="" class="home-testimonial-profile-pic">
+
+            <div class="testimonial">
+                <h2 class="quote-large">"Waw, amai zeg, zoveel mooie bloempjes"</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem error illum magnam, maiores quis rem soluta ullam. Amet aut dignissimos dolor doloremque, ea eveniet expedita explicabo, harum hic ipsam, minima minus modi natus odio perspiciatis possimus quam quis quod rem similique unde velit voluptatem.</p>
+                <div class="flex-name-img">
+                    <img src="resources/img/home-wally-pic.jpg" alt="" class="home-testimonial-profile-pic">
+                    <h3>Wally, Eddy</h3>
+                </div>
             </div>
         </div>
 
-        <div class="testimonial">
-            <div class="testimonial-text">
-                <h2>Donalds, Mc.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid consectetur consequatur, consequuntur cum deleniti dolor dolore dolores ea enim exercitationem fugiat fugit harum libero modi mollitia nostrum odit officiis perferendis porro, praesentium qui quidem quis quod repellat, sed tempore ullam unde vero voluptatem! Aspernatur, dolorum quae. Ad aliquid, aperiam atque consectetur consequuntur cumque cupiditate debitis dicta eligendi error expedita impedit inventore iusto laudantium magni maiores maxime molestiae natus nulla obcaecati porro provident quasi quisquam reiciendis, saepe soluta unde voluptatibus. Eaque nostrum nulla ratione suscipit temporibus. Consequatur corporis dolorum eligendi iste maxime natus vel vitae? Deleniti fugit ipsa ipsum rerum.</p>
-            </div>
-            <div class="testimonial-img">
-                <img src="resources/img/home-donald-pic.jpg" alt="" class="home-testimonial-profile-pic">
-            </div>
-        </div>
-
-        </div>
     </section>
 
     <section id="home-section-3" class="col-lg-12">

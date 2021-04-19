@@ -27,7 +27,7 @@ body {
 a.main-but {
   background-color: black;
   padding: 12px 25px;
-  color: white;
+  color: #fefefe;
   font-family: 'Playfair Display', serif;
   transition: 0.3s;
   margin: 5px;
@@ -48,7 +48,7 @@ a.main-but {
 
 
   .social-icons {
-    color: white;
+    color: #fefefe;
 
     ul li {
       display: inline;
@@ -61,10 +61,7 @@ a.main-but {
         cursor: pointer;
       }
     }
-
-
   }
-
 
   a {
     padding-left:0 !important;
@@ -89,8 +86,6 @@ a.main-but {
       color: $hover-color;
     }
   }
-
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -98,6 +93,7 @@ a.main-but {
     position: relative;
     z-index: 5;
     background-color: #191919;
+    width: 100%;
 
     .nav-link {
       color: red;
@@ -111,7 +107,7 @@ a.main-but {
 a.header-but {
   background-color: #e9b3aa;
   padding: 20px 40px;
-  color: white;
+  color: #fefefe;
   font-family: 'Playfair Display', serif;
   transition: 1s;
 

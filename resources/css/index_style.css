@@ -1,3 +1,5 @@
+/*   FONTS AND RESET   */
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
@@ -10,19 +12,14 @@ body {
     overflow-x: hidden;
 }
 
+/*   HEADER STYLING   */
+
 header{
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
-
-#navigation{
-    width: 100%;
-    height: 10vh;
-
-}
-
 .logoSmallHide{
     display: none;
 }
@@ -31,60 +28,47 @@ header{
     display: block;
 }
 
-main {
-
-}
+/*   SECTION STYLING   */
 
 section {
     min-height: 105vh;
 }
 
 #home-section-1 {
-    background-image: url("../img/plants_ground.jpeg");
+    background-image: url("../img/home-bg-test.jpg");
     background-size: cover;
     background-position: bottom right;
     background-attachment: fixed;
+    width: 100vw;
 }
 
 figure{
-    margin: 40vh auto;
-    width: 569px;
-    text-align: right;
+    display: block;
+    margin: 30vh auto;
+    margin-bottom: 0;
+    width: 100vw;
+    text-align: center;
 }
 
 #home-logo{
     width: 569px;
     height: 177px;
-    transition: 2s;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#button-toShop{
+    text-align: center;
+    margin: 0 auto;
 }
 
 figcaption {
-    margin-bottom: 10px;
+    text-transform: uppercase;
     color: #fefefe;
-}
-
-#home-shop-button{
-    text-align: center;
-    margin: 25px 20px 25px 0;
-    padding: 20px 40px;
-    border: none;
-    background-color: #e9b3aa;
-    transition: 1s;
-}
-
-a{
-    text-decoration: none;
-    color: #fefefe;
-}
-
-#home-shop-button:hover{
-    text-decoration: none;
-    color: #fefefe;
-    background-color: #be6f62;
 }
 
 #home-section-2 {
-    background-color: #343a40;
+    background-color: #212529;
     background-attachment: scroll;
     color: #fefefe;
 }
@@ -94,33 +78,69 @@ h1{
     text-align: center;
 }
 
+
 #testimonial-box{
-    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    width: 90%;
 }
 
 .testimonial{
+    position: relative;
     margin: 25px auto;
-    width: 800px;
+    padding: 25px;
+    width: 90%;
+    height: 450px;
     display: flex;
-}
-
-.testimonial-text{
-    padding: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
     border-right: 1px solid #010101;
     font-family: 'Playfair Display', serif;
 }
 
 .home-testimonial-profile-pic {
-    margin-top: 150px;
-    width: 200px;
-    height: 200px;
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
+    position: relative;
 }
 
+.flex-name-img {
+    display: flex;
+    margin: auto 0;
+    position: absolute;
+    bottom: 0;
+}
 
+.quote-large{
+    width: 100%;
+    margin-right: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: 15px;
+}
 
 #home-section-3 {
-    background-image: url("../img/tropical_plant.jpeg");
+    background-image: url("../img/home-bg-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: bottom center;
+}
+
+@media (max-width: 800px) {
+    #testimonial-box{
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+    figure {
+        width: 190px;
+    }
+    #home-logo{
+        width: 190px;
+        height: 91px;
+    }
 }
