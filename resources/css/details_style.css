@@ -1,11 +1,82 @@
+.header-img.one {
+    background-image: url("../img/details_main_1.jpg");
+}
+
+.header-img.two {
+    background-image: url("../img/plants_ground.jpeg");
+}
+
+.header-img.three {
+    background-image: url("../img/plants_ground.jpeg");
+}
+
+
+
+.img1-detail {
+    background-image: url("../img/details_flowers_1.jpg");
+}
+
+.img2-detail {
+    background-image: url("../img/details_flowers_2.jpg");
+}
+
+.img3-detail {
+    background-image: url("../img/details_flowers_3.jpg");
+}
+.carousel-image {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+}
+.small-image1 {
+    background-image: url("../img/vaas_1.jpg");
+}
+
+.small-image2 {
+    background-image: url("../img/vaas_2.jpg");
+}
+
+.small-image3 {
+    background-image: url("../img/vaas_3.jpg");
+}
+
+.pots {
+    width: 14vh;
+    height: 14vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bio-img1 {
+    background-image: url("../img/details_bio_2.jpg");
+}
+.bio-img-pos {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+}
+
 body, .text-secondary {
+    background-color: #282728;
     color: white;
 }
 
+.body-font-sm {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
 .carousel-small {
 
 }
 
+.partners {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 
 .display-6 {
     font-family: "Playfair Display", serif;
@@ -17,20 +88,13 @@ body, .text-secondary {
 }
 */
 
-.header-img.one {
-    background-image: url("../img/flower-2.jpeg");
-}
-
-.header-img.two {
-    background-image: url("../img/plants_ground.jpeg");
-}
-
-.header-img.three {
-    background-image: url("../img/plants_ground.jpeg");
-}
 
 .pink-bg-color {
     background-color: #e9b3aa;
+}
+
+.bg-color-dark {
+    background-color: #232120;
 }
 
 .img-thumbnail {
@@ -52,6 +116,7 @@ a.main-but-left {
     transition: 1s;
     margin: 0px;
 }
+
 a.main-but-left:hover {
     text-decoration: none;
     background-color: #be6f62;
@@ -63,20 +128,34 @@ a.main-but-left:hover {
 }
 
 .body-dark {
-    color: #282728;
+    color: #191919;
     font-family: "Playfair Display", serif;
     font-size: 1.2em;
 }
 
-.pots img {
-    width: auto;
-    height: 150px;
-    margin: 0;
-    padding: 0;
+.font-color-dark {
+    color: #191919;
 }
 
+/*
 .icons {
     width: 100px;
     height: 100px;
 }
+*/
+/*
+.img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+/*
+ */
+/*
+img {
+    min-height: 4em;
+    width: 100%;
+}
+*/
 /*# sourceMappingURL=shop_style.css.map */
