@@ -1,11 +1,8 @@
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+*{
+
+
 }
+
 
 /* Add a hover effect if you want */
 .fa:hover {
@@ -18,17 +15,20 @@
 .fa-facebook {
     background: #3B5998;
     color: white;
+
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+
 }
 
 
 /* Instagram */
 .fa-instagram {
+
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
@@ -36,24 +36,57 @@
 .fa-pinterest {
     background: #cb2027;
     color: white;
+
 }
 
 /* Youtube */
 .fa-youtube {
     background: #bb0000;
     color: white;
+
 }
 
+.fa{
+
+    position:relative;
+    text-align:center;
+    width:0px;
+    height:0px;
+    padding:18px;
+    margin:0 5px 0 0;
+    -webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -webkit-border-radius: 		20px 20px 20px 20px;
+    transition: 0.5s;
+    color:#FFFFFF;
+}
+
+
 .header-img {
-    background-image: url("../resources/img/lotus.jpeg");
-    width: 100%; height: 500px;
+    background-image: url("../img/lotus.jpeg");
+    width: 100%; height: 900px;
     background-size: cover;
 }
 
-body{
-    background-color: none;
+.about_img{
+    min-width: 100%;
+    max-height:280px ;
+}
+
+.offer_style{
+    background-color: #a6dcef;
+}
+
+.about_us{
+    background-color: #669289;
+}
+.contact_us{
+    background-color: #528b1f;
+}
+
+iframe{
+    padding-left: 18px;
 }
 /* Start ----- of Contact us ----- */
-.address p{
+.address p {
     font-weight: 600;
 }
