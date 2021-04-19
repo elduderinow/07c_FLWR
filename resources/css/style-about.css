@@ -1,13 +1,9 @@
-/* Start created by */
-body,html{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ddd;
-    width: 100%;
-    height: 100%;
+.header-img.one {
+    background-image: url("../img/lotus.jpeg");
 }
 
+
+/* Start created by */
 .team-area{
     display: flex;
     width: 90%;
