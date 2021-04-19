@@ -15,10 +15,16 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.body {
-  font-family: 'Playfair Display', serif;
+.body-font {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
   font-size: 1.2em;
 
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 102, 203, 0.0) !important;
+  background-image: url("data:image/svg+xml;..");
 }
 
 /*END GLOBAL STYLES*/
@@ -47,6 +53,7 @@ a.main-but {
   background-color: transparent;
 
 
+
   .social-icons {
     color: #fefefe;
 
@@ -64,13 +71,14 @@ a.main-but {
   }
 
   a {
-    padding-left:0 !important;
-    padding-right:0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 
   }
+
   .link-active {
-    border-bottom:2px solid white;
-    padding-bottom:5px !important;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px !important;
 
   }
 
@@ -95,9 +103,34 @@ a.main-but {
     background-color: #191919;
     width: 100%;
 
-    .nav-link {
-      color: red;
+
+
+    ul {
+      padding-top: 10px;
     }
+
+    .nav-item {
+      a {
+        margin: 0 !important;
+        padding-top: 10px;
+
+        &.link-active {
+          border: 0;
+        }
+      }
+    }
+
+    .social-icons {
+      margin-top:20px;
+      ul {
+        padding-left: 0;
+
+        li {
+          padding-left:0;
+        }
+      }
+    }
+    
   }
 }
 
@@ -119,7 +152,7 @@ a.header-but {
 
 .header-img {
   padding: 0;
-  height: 600px;
+  height: 100vh;
   background-image: url("../img/plants_ground.jpeg");
   background-size: cover;
   background-position: center center;
@@ -129,11 +162,11 @@ a.header-but {
   .shade {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 600px;
+    height:100vh;
   }
 
   .carousel-caption {
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
 
     h5 {
