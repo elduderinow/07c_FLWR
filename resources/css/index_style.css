@@ -21,6 +21,10 @@ header{
     z-index: 1;
 }
 
+.navbar-dark{
+    background-color: transparent;
+}
+
 .navbarShowColor{
     background-color: #191919;
 }
@@ -80,6 +84,7 @@ figcaption {
     background-color: #212529;
     background-attachment: scroll;
     color: #fefefe;
+    min-height: 80vh;
 }
 
 h1{
@@ -88,28 +93,36 @@ h1{
     text-align: center;
 }
 
+main h2{
+    min-height: 75px;
+    font-size: 25px;
+    background: brown;
+}
 
 #testimonial-box{
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     width: 90%;
 }
 
 .testimonial{
     position: relative;
-    margin: 25px auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
     padding: 25px;
     width: 90%;
-    height: 450px;
-    display: flex;
     margin-right: 30px;
     border-right: 1px solid #010101;
     font-family: 'Playfair Display', serif;
+    background-color: red;
 }
 
 .testimonial p{
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: light;
+    min-height: 250px;
+    margin-bottom: 15px;
+    font-family: "Helvetica", sans-serif;
+    background-color: yellow;
+    border-bottom: 1px solid #fefefe;
 }
 
 .home-testimonial-profile-pic {
@@ -121,9 +134,9 @@ h1{
 
 .flex-name-img {
     display: flex;
-    margin: auto 0;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 .quote-large{
@@ -131,9 +144,10 @@ h1{
     margin-right: 30px;
 }
 
-h3{
+main h3{
     font-size: 30px;
     margin-left: 15px;
+    background-color: green;
 }
 
 #home-section-3 {
@@ -144,9 +158,23 @@ h3{
     background-position: bottom center;
 }
 
-@media (max-width: 800px) {
+footer section{
+    min-height: 1vh;
+}
+
+@media (max-width: 992px) {
     #testimonial-box{
         flex-wrap: wrap;
+        background-color: blue;
+    }
+
+    .testimonial{
+        margin: 0 auto;
+        flex-wrap: nowrap;
+        width: 80%;
+        background-color: red;
+        border-right: none;
+        border-bottom: 1px solid #fefefe;
     }
 }
 
