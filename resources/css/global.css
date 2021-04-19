@@ -62,7 +62,7 @@ a.main-but:hover {
   padding-right: 0 !important;
 }
 .navbar .link-active {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fefefe;
   padding-bottom: 5px !important;
 }
 .navbar .nav-link {
@@ -141,5 +141,90 @@ a.header-but:hover {
 }
 
 /* END HEADER STYLES*/
+/*FOOTER STYLES*/
+footer {
+  background-color: #191919;
+  padding: 50px 10px;
+  color: white;
+}
+footer h3 {
+  font-size: 1.5rem;
+}
+footer .contact-link .link ul {
+  padding-left: 0;
+}
+footer .contact-link .link ul li {
+  list-style-type: none;
+}
+footer .contact-link .link ul li a {
+  color: #fefefe;
+  transition: 0.3s;
+}
+footer .contact-link .link ul li a:hover {
+  color: #be6f62;
+  text-decoration: none;
+}
+footer .contact a {
+  color: #e9b3aa;
+  transition: 0.3s;
+}
+footer .contact a:hover {
+  color: #be6f62;
+  text-decoration: none;
+}
+footer .links {
+  text-align: center;
+  padding: 60px 10px 0 10px;
+}
+footer .links ul li {
+  display: inline;
+  border-right: 1px solid #fefefe;
+}
+footer .links ul li:last-child {
+  border: none;
+}
+footer .links ul li a {
+  color: #fefefe;
+}
+footer section img {
+  margin-bottom: 15px;
+}
+footer .subscription {
+  padding: 0 30px;
+}
+footer .subscription input {
+  height: 50px;
+  border: none;
+}
+footer .subscription input::placeholder {
+  padding-left: 10px;
+}
+footer .subscription input.input {
+  background-color: #282728;
+  color: #fefefe;
+}
+footer .subscription input.submit {
+  background-color: #e9b3aa;
+  transition: 0.3s;
+  color: #fefefe;
+}
+footer .subscription input.submit:hover {
+  background-color: #be6f62;
+}
+
+@media only screen and (max-width: 786px) {
+  footer .contact-link {
+    padding: 20px 50px;
+  }
+  footer .contact-link .link {
+    padding-bottom: 20px;
+  }
+
+  .carousel-item .carousel-caption {
+    top: 47%;
+    transform: translateY(-50%);
+  }
+}
+/*END FOOTER STYLES*/
 
 /*# sourceMappingURL=global.css.map */

@@ -1,6 +1,8 @@
 /*GLOBAL STYLES*/
 
 $hover-color: #be6f62;
+$btn-base: #e9b3aa;
+$off-white: #fefefe;
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 html {
@@ -33,7 +35,7 @@ body {
 a.main-but {
   background-color: black;
   padding: 12px 25px;
-  color: #fefefe;
+  color: $off-white;
   font-family: 'Playfair Display', serif;
   transition: 0.3s;
   margin: 5px;
@@ -53,9 +55,8 @@ a.main-but {
   background-color: transparent;
 
 
-
   .social-icons {
-    color: #fefefe;
+    color: $off-white;
 
     ul li {
       display: inline;
@@ -77,7 +78,7 @@ a.main-but {
   }
 
   .link-active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid $off-white;
     padding-bottom: 5px !important;
 
   }
@@ -104,7 +105,6 @@ a.main-but {
     width: 100%;
 
 
-
     ul {
       padding-top: 10px;
     }
@@ -121,16 +121,17 @@ a.main-but {
     }
 
     .social-icons {
-      margin-top:20px;
+      margin-top: 20px;
+
       ul {
         padding-left: 0;
 
         li {
-          padding-left:0;
+          padding-left: 0;
         }
       }
     }
-    
+
   }
 }
 
@@ -162,7 +163,7 @@ a.header-but {
   .shade {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height:100vh;
+    height: 100vh;
   }
 
   .carousel-caption {
@@ -177,3 +178,122 @@ a.header-but {
 }
 
 /* END HEADER STYLES*/
+
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #191919;
+  padding: 50px 10px;
+  color: white;
+
+  h3 {
+    font-size:1.5rem;
+  }
+
+  .contact-link {
+   .link {
+     ul {
+       padding-left:0;
+       li {
+         list-style-type: none;
+         a {
+           color:$off-white;
+           transition: 0.3s;
+
+           &:hover {
+             color:$hover-color;
+             text-decoration: none;
+           }
+         }
+       }
+     }
+   }
+  }
+
+  .contact a {
+    color: $btn-base;
+    transition: 0.3s;
+
+    &:hover {
+      color:$hover-color;
+      text-decoration: none;
+    }
+  }
+  .links {
+    text-align: center;
+    padding:60px 10px 0 10px;
+
+    ul {
+      li {
+        display: inline;
+        border-right: 1px solid $off-white;
+
+        &:last-child {
+          border: none;
+        }
+
+        a {
+          color:$off-white;
+        }
+
+      }
+    }
+  }
+
+  section {
+    img {
+      margin-bottom: 15px;
+    }
+  }
+
+  .subscription {
+    padding:0 30px;
+
+    input {
+      height: 50px;
+      border: none;
+
+      &::placeholder {
+        padding-left: 10px;
+      }
+
+      &.input {
+        background-color: #282728;
+        color: $off-white;
+      }
+
+      &.submit {
+        background-color: $btn-base;
+        transition: 0.3s;
+        color: $off-white;
+
+        &:hover {
+          background-color: $hover-color;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 786px) {
+  footer {
+    .contact-link {
+      padding:20px 50px;
+
+      .link {
+        padding-bottom:20px;
+      }
+    }
+  }
+
+  .carousel-item {
+    .carousel-caption {
+      top: 47%;
+      transform: translateY(-50%);
+    }
+  }
+
+}
+
+/*END FOOTER STYLES*/
