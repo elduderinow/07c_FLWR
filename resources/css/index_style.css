@@ -38,6 +38,11 @@ header{
     transition: 2s;
 }
 
+p {
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
 /*   SECTION STYLING   */
 
 section {
@@ -94,35 +99,33 @@ h1{
 }
 
 main h2{
-    min-height: 75px;
     font-size: 25px;
-    background: brown;
+    margin: auto auto;
 }
 
 #testimonial-box{
-    margin: 50px auto;
+    margin: auto;
     display: flex;
     width: 90%;
 }
 
 .testimonial{
+    display: flex;
     position: relative;
     margin: 0 auto;
+    min-height: 400px;
     margin-bottom: 50px;
     padding: 25px;
     width: 90%;
     margin-right: 30px;
     border-right: 1px solid #010101;
     font-family: 'Playfair Display', serif;
-    background-color: red;
 }
 
 .testimonial p{
-    min-height: 250px;
+    text-align: left;
     margin-bottom: 15px;
     font-family: "Helvetica", sans-serif;
-    background-color: yellow;
-    border-bottom: 1px solid #fefefe;
 }
 
 .home-testimonial-profile-pic {
@@ -140,14 +143,13 @@ main h2{
 }
 
 .quote-large{
-    width: 100%;
-    margin-right: 30px;
+    display: block;
+    margin: 0 15px 0 0;
 }
 
 main h3{
     font-size: 30px;
     margin-left: 15px;
-    background-color: green;
 }
 
 #home-section-3 {
@@ -162,19 +164,48 @@ footer section{
     min-height: 1vh;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1500px) {
     #testimonial-box{
         flex-wrap: wrap;
-        background-color: blue;
     }
 
     .testimonial{
-        margin: 0 auto;
+        margin: 15px auto;
+        display: flex;
         flex-wrap: nowrap;
-        width: 80%;
-        background-color: red;
+        width: 40%;
         border-right: none;
-        border-bottom: 1px solid #fefefe;
+        border-bottom: 1px solid #191919;
+    }
+
+    .testimonial p{
+        min-height: 200px;
+        margin-bottom: 15px;
+    }
+
+    main h2{
+        min-height: 25px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1500px){
+    #testimonial-box{
+        display: block;
+    }
+
+    .testimonial{
+        display: block;
+        width: 50%;
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .testimonial{
+        width: 90%;
     }
 }
 
