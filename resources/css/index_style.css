@@ -20,12 +20,18 @@ header{
     left: 0;
     z-index: 1;
 }
+
+.navbarShowColor{
+    background-color: #191919;
+}
+
 .logoSmallHide{
     display: none;
 }
 
 .logoSmallShow{
     display: block;
+    transition: 2s;
 }
 
 /*   SECTION STYLING   */
@@ -44,8 +50,8 @@ section {
 
 figure{
     display: block;
-    margin: 30vh auto;
-    margin-bottom: 0;
+    margin: 0 auto;
+    margin-top: 40vh;
     width: 100vw;
     text-align: center;
 }
@@ -54,7 +60,9 @@ figure{
     width: 569px;
     height: 177px;
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fefefe;
 }
 
 #button-toShop{
@@ -65,6 +73,7 @@ figure{
 figcaption {
     text-transform: uppercase;
     color: #fefefe;
+    margin-bottom: 30px;
 }
 
 #home-section-2 {
@@ -74,6 +83,7 @@ figcaption {
 }
 
 h1{
+    font-family: "Playfair Display", serif;
     margin-top: 50px;
     text-align: center;
 }
@@ -95,6 +105,11 @@ h1{
     margin-right: 30px;
     border-right: 1px solid #010101;
     font-family: 'Playfair Display', serif;
+}
+
+.testimonial p{
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: light;
 }
 
 .home-testimonial-profile-pic {

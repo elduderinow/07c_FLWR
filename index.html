@@ -22,8 +22,10 @@
 <header class="container-fluid">
     <div id="navigation" class="row">
 
-        <nav class="navbar navbar-expand-lg w-100 p-4 disable-blur">
-            <img width="100" id="logoSmall" class="navbar-brand logoSmallHide" src="resources/img/flwr-02.png">
+        <nav class="navbar navbar-dark navbar-expand-lg w-100 p-4">
+            <a href="index.html"><img width="100" id="logoSmall" class="navbar-brand logoSmallHide" src="resources/img/flwr-02.png"
+                                      alt="flower logo image"></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,37 +33,34 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
+                    <li class="nav-item active">
+                        <a class="nav-link link-active" href="shop.html">Shop <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="details.html">Details</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="account.html" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Account
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">New</a>
-                            <a class="dropdown-item" href="#">Favorites</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="account.html">Account</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                 </ul>
                 <div class="social-icons">
                     <ul>
                         <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-twitter fa-lg"></i></a></li>
                         <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
-                        <li><a href="#"></a><i class="fa fa-whatsapp fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-pinterest fa-lg"></i></a></li>
+                        <li><a href="#"></a><i class="fa fa-youtube fa-lg"></i></a></li>
+                        <!--  <li><a href="#"></a><i class="fa fa-shopping-cart fa-lg"></i></a></li>-->
                     </ul>
+
                 </div>
+
             </div>
+
         </nav>
     </div>
 </header>
@@ -72,8 +71,8 @@
 
     <section id="home-section-1">
         <figure>
-            <figcaption id="figcaption">Where dreams bloom into reality</figcaption>
             <img id="home-logo" src="resources/img/flwr-02.png" alt="FLWR logo in white">
+            <figcaption id="figcaption">Where dreams bloom into reality</figcaption>
             <br>
             <a href="shop.html" id="button-toShop" class="header-but">SHOP HERE</a>
         </figure>
