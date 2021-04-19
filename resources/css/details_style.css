@@ -6,14 +6,6 @@ body, .text-secondary {
 
 }
 
-.main-but-left-align {
-    background-color: #e9b3aa;
-    padding: 12px 25px;
-    color: white;
-    font-family: "Playfair Display", serif;
-    transition: 1s;
-    margin: 5px;
-}
 
 .display-6 {
     font-family: "Playfair Display", serif;
@@ -41,5 +33,50 @@ body, .text-secondary {
     background-color: #e9b3aa;
 }
 
+.img-thumbnail {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+}
 
+.rule {
+    color: white;
+    background-color: white;
+}
+
+a.main-but-left {
+    background-color: #e9b3aa;
+    padding: 12px 12px;
+    color: white;
+    font-family: "Playfair Display", serif;
+    transition: 1s;
+    margin: 0px;
+}
+a.main-but-left:hover {
+    text-decoration: none;
+    background-color: #be6f62;
+}
+
+.title-dark {
+    color: #282728;
+    font-family: "Playfair Display", serif;
+}
+
+.body-dark {
+    color: #282728;
+    font-family: "Playfair Display", serif;
+    font-size: 1.2em;
+}
+
+.pots img {
+    width: auto;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
+}
 /*# sourceMappingURL=shop_style.css.map */
