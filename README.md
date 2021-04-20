@@ -9,11 +9,12 @@ This project is on GitHub due to the need to cooperate on a single project, with
 - Mick (Details page)
 - Prince (About page)
 - Yarrut (Shop page)
-- Yuntian (Account page)
+- Yuntian (Tips/Tricks page)
 - Lawrence (Homepage and editor of this readme file...hi there :))
 
 Here are some useful clicks:
 - (https://imgur.com/a/da9Gmbt "Screenshot of the homepage")
+- (https://elduderinow.github.io/07c_FLWR/index.html "View our page online")
 
 
 ---
