@@ -38,6 +38,8 @@ $hover-color: #be6f62;
       background-size: cover;
       background-position: center center;
 
+
+
       div {
         background-color: #070707;
         height: 100%;
@@ -116,3 +118,17 @@ $hover-color: #be6f62;
 }
 
 
+.main-but {
+  background-color: black;
+  padding: 12px 25px;
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s;
+  margin: 5px;
+  border:none;
+  &:hover {
+    text-decoration: none;
+    background-color: #be6f62;
+  }
+
+}
