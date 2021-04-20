@@ -49,6 +49,10 @@ a.main-but:hover {
   z-index: 5;
   background-color: transparent;
 }
+.navbar img {
+  width: 100px;
+  height: 100%;
+}
 .navbar .social-icons {
   color: #fefefe;
   text-align: right;
@@ -151,6 +155,10 @@ footer {
   background-color: #191919;
   padding: 50px 10px;
   color: white;
+}
+footer img {
+  width: 100px;
+  height: 30px;
 }
 footer h3 {
   font-size: 1.5rem;

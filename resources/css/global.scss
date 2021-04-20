@@ -58,6 +58,10 @@ a.main-but {
   z-index: 5;
   background-color: transparent;
 
+  img {
+    width: 100px;
+    height: 100%;
+  }
 
   .social-icons {
     color: $off-white;
@@ -191,6 +195,11 @@ footer {
   background-color: #191919;
   padding: 50px 10px;
   color: white;
+
+  img {
+    width: 100px;
+    height: 30px;
+  }
 
   h3 {
     font-size:1.5rem;
