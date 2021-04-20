@@ -2,16 +2,6 @@
     background-image: url("../img/details_main_1.jpg");
 }
 
-.header-img.two {
-    background-image: url("../img/plants_ground.jpeg");
-}
-
-.header-img.three {
-    background-image: url("../img/plants_ground.jpeg");
-}
-
-
-
 .img1-detail {
     background-image: url("../img/details_flowers_1.jpg");
 }
@@ -23,12 +13,14 @@
 .img3-detail {
     background-image: url("../img/details_flowers_3.jpg");
 }
+
 .carousel-image {
     width: 100%;
     height: 65vh;
     background-size: cover;
     background-position: center center;
 }
+
 .small-image1 {
     background-image: url("../img/vaas_1.jpg");
 }
@@ -49,11 +41,12 @@
 }
 
 .bio-img1 {
-    background-image: url("../img/details_bio_2.jpg");
+    background-image: url("../img/details_bio_3.png");
 }
+
 .bio-img-pos {
     width: 100%;
-    height: 65vh;
+    height: 60vh;
     background-size: cover;
     background-position: center center;
 }
@@ -68,9 +61,6 @@ body, .text-secondary {
     font-weight: lighter;
     font-size: 1em;
 }
-.carousel-small {
-
-}
 
 .partners {
     color: white;
@@ -78,29 +68,13 @@ body, .text-secondary {
     padding-bottom: 30px;
 }
 
-.display-6 {
-    font-family: "Playfair Display", serif;
+.bold {
+    font-weight: bold;
 }
-/*
-.carousel-caption h5 {
-    font-size: 3em;
-    font-family: "Playfair Display", serif;
-}
-*/
 
-
-.pink-bg-color {
-    background-color: #e9b3aa;
-}
 
 .bg-color-dark {
     background-color: #232120;
-}
-
-.img-thumbnail {
-    border: 0;
-    padding: 0;
-    border-radius: 0;
 }
 
 .rule {
@@ -108,56 +82,6 @@ body, .text-secondary {
     background-color: white;
 }
 
-a.main-but-left {
-    background-color: #e9b3aa;
-    padding: 12px 12px;
-    color: white;
-    font-family: "Playfair Display", serif;
-    transition: 1s;
-    margin: 0px;
-}
 
-a.main-but-left:hover {
-    text-decoration: none;
-    background-color: #be6f62;
-}
 
-.title-dark {
-    color: #282728;
-    font-family: "Playfair Display", serif;
-}
-
-.body-dark {
-    color: #191919;
-    font-family: "Playfair Display", serif;
-    font-size: 1.2em;
-}
-
-.font-color-dark {
-    color: #191919;
-}
-
-/*
-.icons {
-    width: 100px;
-    height: 100px;
-}
-<<<<<<< HEAD
-*/
-/*
-.img-fluid {
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-/*
- */
-/*
-img {
-    min-height: 4em;
-    width: 100%;
-}
-*/
-/*# sourceMappingURL=shop_style.css.map */
 
