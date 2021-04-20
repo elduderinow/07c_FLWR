@@ -39,26 +39,26 @@ Here are some useful clicks:
 
 #### Text life matters aka typography is real
 
- - [ x ] Some words are bolded
- - [ x ] Some words are italic
+ - [x] Some words are bolded
+ - [x] Some words are italic
  - [ ] Some words have a different color
  - [ ] We aren't using a default font, cause it's not 2004
  - [ ] Contrast is not too low
  - [ ] Typographic hierachy is correct
  - [ ] Text has a clear intro, middle, conclusion
  - [ ] Intro, middle, conclusion is style correctly
- - [ x ] Headline font is a headline font
- - [ x ] Body text font is a body text font
+ - [x] Headline font is a headline font
+ - [x] Body text font is a body text font
  - [ ] The text on the page has a good flow
 
 #### Style
 
- - [ x ] Black is almost black but not #000
- - [ x ] White is almost white but not #fff
- - [ x ] The website is not an ugly color mess
+ - [x] Black is almost black but not #000
+ - [x] White is almost white but not #fff
+ - [x] The website is not an ugly color mess
  - [ ] The styling is consistent
  - [ ] It is not four totally different pages thrown together
- - [  ] Everything works even if you are colorblind
+ - [ ] Everything works even if you are colorblind
 
 #### Not everyone has free 4G aka speed matters
 
@@ -155,11 +155,11 @@ Here are some useful clicks:
 
 #### Team McNuggets
 
-  - [ x ] Add descriptive comments to your code
+  - [x] Add descriptive comments to your code
 
 #### Team BeLicense
 
-  - [ x ] Use a clear folder structure in your project
+  - [x] Use a clear folder structure in your project
 
 #### Team AdastrA
 
@@ -167,8 +167,8 @@ Here are some useful clicks:
 
 #### FLWR
 
-  - [ x ] Whenever you hover over an image, some text appears on top of it
+  - [x] Whenever you hover over an image, some text appears on top of it
 
 #### Hilltop B&B
 
-  - [ x ] Add at least one on hover animation
+  - [x] Add at least one on hover animation
