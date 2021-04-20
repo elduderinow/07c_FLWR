@@ -15,18 +15,21 @@ body {
 
 .title {
   font-family: 'Playfair Display', serif;
+  color:$off-white;
 }
 
 a {
   text-decoration: none;
 }
 
-.body-font {
-  font-family: "Helvetica Neue", sans-serif;
-  font-weight: lighter;
-  font-size: 1.2em;
-
+#ourplants {
+  .body-font {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+  }
 }
+
+
 
 .navbar-toggler {
   border-color: rgba(255, 102, 203, 0.0) !important;

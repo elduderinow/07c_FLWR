@@ -10,15 +10,15 @@ body {
 
 .title {
   font-family: "Playfair Display", serif;
+  color: #fefefe;
 }
 
 a {
   text-decoration: none;
 }
 
-.body-font {
+#ourplants .body-font {
   font-family: "Helvetica Neue", sans-serif;
-  font-weight: lighter;
   font-size: 1.2em;
 }
 

@@ -35,14 +35,14 @@ body{
 }
 
 .partners {
-    color: white;
+    color: #fefefe;
     padding-top: 50px;
 }
 
 .cards .content {
     padding: 10px;
     font-family: "Playfair Display", serif;
-    color: white;
+    color: #fefefe;
 }
 .cards .content .price {
     font-family: "Helvetica Neue", sans-serif;
@@ -55,7 +55,7 @@ body{
     background-position: center center;
 }
 .cards .content .cards-image div {
-    background-color: black;
+    background-color: #191919;
     height: 100%;
     opacity: 0;
     transition: 0.2s;
@@ -97,14 +97,14 @@ body{
     height: 80px;
     font-size: 1.3em;
     line-height: 1.5em;
-    color: white;
+    color: #fefefe;
 }
 .cards caption {
     padding: 10px;
 }
 
 #partners {
-    color:white;
+    color:#fefefe;
   }
 
 #partners ul {
@@ -135,7 +135,7 @@ body{
 
 .header-content hr {
     border:none ;
-    border-bottom:2px solid white;
+    border-bottom:2px solid #fefefe;
     width: 200px;
     padding:10px 0;
 }
