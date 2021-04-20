@@ -1,5 +1,7 @@
 # FLWR
 
+![Image of a cat saying welcome aboard](https://memegenerator.net/img/instances/47489312/welcome-aboard.jpg)
+
 ## Welcome to the README of FLWR; a group project as part of the final HTML & CSS assignement for 'BeCode Antwerp'.
 This project is on GitHub due to the need to cooperate on a single project, with different people. Also because it's part of the curriculum.
 
@@ -7,11 +9,12 @@ This project is on GitHub due to the need to cooperate on a single project, with
 - Mick (Details page)
 - Prince (About page)
 - Yarrut (Shop page)
-- Yuntian (Account page)
+- Yuntian (Tips/Tricks page)
 - Lawrence (Homepage and editor of this readme file...hi there :))
 
 Here are some useful clicks:
 - (https://imgur.com/a/da9Gmbt "Screenshot of the homepage")
+- (https://elduderinow.github.io/07c_FLWR/index.html "View our page online")
 
 
 ---

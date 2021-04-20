@@ -81,4 +81,18 @@
   padding: 10px;
 }
 
+.main-but {
+  background-color: black;
+  padding: 12px 25px;
+  color: #fefefe;
+  font-family: "Playfair Display", serif;
+  transition: 0.3s;
+  margin: 5px;
+  border: none;
+}
+.main-but:hover {
+  text-decoration: none;
+  background-color: #be6f62;
+}
+
 /*# sourceMappingURL=shop.css.map */
