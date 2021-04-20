@@ -1,5 +1,7 @@
 # FLWR
 
+![Image of a cat saying welcome aboard](https://memegenerator.net/instance/47489312/captain-cat-welcome-aboard)
+
 ## Welcome to the README of FLWR; a group project as part of the final HTML & CSS assignement for 'BeCode Antwerp'.
 This project is on GitHub due to the need to cooperate on a single project, with different people. Also because it's part of the curriculum.
 
