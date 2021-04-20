@@ -97,7 +97,7 @@ This project is on GitHub due to the need to cooperate on a single project, with
  - [ ] The readme looks good
  - [ ] The readme is clear, even for someone that has no idea what is going on
 
-### #I'm So Meta, Even This Acronym
+#### I'm So Meta, Even This Acronym
 
  - [ ] Social media sharing meta tags are correct
  - [ ] Keywords meta tag
