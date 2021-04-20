@@ -70,16 +70,16 @@ body{
     opacity: 0.8;
 }
 .cards .content .img1 {
-    background-image: url("../img/shop/spring.jpg");
+    background-image: url("../img/shop/spring.webp");
 }
 .cards .content .img2 {
-    background-image: url("../img/shop/pretty-green.jpg");
+    background-image: url("../img/shop/pretty-green.webp");
 }
 .cards .content .img3 {
-    background-image: url("../img/shop/deluxe.jpg");
+    background-image: url("../img/shop/deluxe.webp");
 }
 .cards .content .img4 {
-    background-image: url("../img/shop/evolving-hues.jpg");
+    background-image: url("../img/shop/evolving-hues.webp");
 }
 .cards .content .img5 {
     background-image: url("../img/shop/atelier.jpg");

@@ -14,8 +14,9 @@ $hover-color: #be6f62;
 }
 
 
+
 .partners {
-  color: white;
+  color: #fefefe;
   padding-top: 50px;
 }
 
@@ -23,7 +24,7 @@ $hover-color: #be6f62;
   .content {
     padding: 10px;
     font-family: "Playfair Display", serif;
-    color: white;
+    color: #fefefe;
 
     .price {
       font-family: "Helvetica Neue", sans-serif;
@@ -38,7 +39,7 @@ $hover-color: #be6f62;
       background-position: center center;
 
       div {
-        background-color: black;
+        background-color: #070707;
         height: 100%;
         opacity: 0.0;
         transition: 0.2s;
@@ -91,11 +92,14 @@ $hover-color: #be6f62;
       background-image: url("../img/shop/firestone.webp");
     }
 
+    .price {
+      font-style: italic;
+    }
 
     h2 {
       font-size: 1.3em;
       line-height: 1.5em;
-      color: white;
+      color: #fefefe;
     }
 
     button {

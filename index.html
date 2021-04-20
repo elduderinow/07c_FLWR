@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEB9R16YJC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VEB9R16YJC');
+    </script>
+
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/index_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
@@ -44,7 +53,7 @@
                             <a class="nav-link" href="details.html">Details</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="account.html">Account</a>
+                            <a class="nav-link" href="tips.html">Tips/Tricks</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -179,11 +188,6 @@
                     <div class="row">
                         <div class="col content text-center flex-column d-flex m-4">
                             <div class="cards-image img4">
-                                <div class="text">
-                                    <p class="align-middle">A lot of flowers for your beautiful home and to enlighten
-                                        your soul.
-                                    </p>
-                                </div>
                             </div>
                             <section class="p-3">
                                 <h2 class="display-6 mb-1 mt-3 pb-4">Evolving Hues</h2>
@@ -194,7 +198,6 @@
                         </div>
                     </div>
                 </div>
-
             </section>
             <section class="cards row">
                 <div class="col-sm-12 p-4 text-center m-auto text-light">
@@ -249,13 +252,14 @@
 </div>
 
 <!-- Footer -->
-<footer clas="container-fluid">
+<footer class="container-fluid">
     <div class="footer row">
         <div class="col-sm-12 col-md-6">
             <section class="subscription">
                 <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
-                <form action="#" class="row flex-fill">
-                    <input class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
+                <form action="https://formspree.io/f/xrgrbark"
+                      method="POST" class="row flex-fill">
+                    <input name="email" class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
                     <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
                 </form>
             </section>
@@ -263,41 +267,50 @@
 
         <div class="contact-link col-sm col-md-6">
             <div class="row">
+
+
                 <section class="link col-sm-6 col-md-6">
                     <h3 class="title">Direct</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Details</a></li>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="tips.html">Account</a></li>
+                        <li><a href="about.html">About us</a></li>
+
                     </ul>
                 </section>
 
                 <section class="contact col-sm-6 col-md-6">
-                    <img width="80" src="resources/img/flwr-02.png" alt="flwr company logo">
+                    <img width="6837" height="2056" src="resources/img/flwr-02.png" alt="flwr company logo">
                     <address>Flower street 123<br>
                         2000 Antwerpen<br>
                         Belgium<br></address>
 
                     <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
-                    <tel>0489 33 37 82</tel>
+                    <a href="tel:+32489333782">+324 89 33 37 82</a>
+
+
                 </section>
+
             </div>
+
+
         </div>
+
     </div>
-    <div class="links row">
+    <section class="links row">
         <div class="col-sm col-md w-100">
-            <section>
-                <ul class="d-flex">
-                    <li class="col-sm"><a href="">©2021 FLWR co.</a></li>
-                    <li class="col-sm"><a href="">Shipping & Refunds</a></li>
-                    <li class="col-sm"><a href="">Privacy Policy</a></li>
-                    <li class="col-sm"><a href="">Cookie Policy</a></li>
-                </ul>
-            </section>
+
+            <ul class="d-flex">
+                <li class="col-sm"><a href="#">© 2021 FLWR co.</a></li>
+                <li class="col-sm"><a href="#">Shipping & Refunds</a></li>
+                <li class="col-sm"><a href="#">Privacy Policy</a></li>
+                <li class="col-sm"><a href="#">Cookie Policy</a></li>
+            </ul>
+
         </div>
-    </div>
+    </section>
 </footer>
 <!-- END Footer -->
 

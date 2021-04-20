@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEB9R16YJC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-VEB9R16YJC');
+    </script>
+
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/shop.css">
     <link rel="stylesheet" href="resources/css/details_style.css">
@@ -45,7 +59,7 @@
                             <a class="nav-link link-active active" href="details.html">Details</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="account.html">Account</a>
+                            <a class="nav-link" href="tips.html">Tips/Tricks</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -182,7 +196,7 @@
                 <h2 class="title pb-3">Bella Ciao Bouquet</h2>
                 <p class="price">Price: 2000$</p>
                 <hr class="rule">
-                <p class="body-font">Ni goekoop ze makker!</p>
+                <p class="body-font">"It was always 'Bucket' until I met you!"</p>
                 <p class="body-font-sm">Alocasia is een geslacht uit de aronskelkfamilie.
                     Het geslacht telt negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
                     Oost-Australië.</p>
@@ -200,7 +214,7 @@
 
     <div class="row d-flex justify-content-center bg-color-dark my-4">
         <div class="col-lg-4 p-4 my-4">
-            <h2 class="title">Plant Bio</h2>
+            <h2 class="title mb-3">About this Bouquet</h2>
             <p class="body-font">Una mattina mi son svegliato.
                 O bella ciao, bella ciao, bella ciao ciao ciao.
                 Una mattina mi son svegliato.
@@ -213,6 +227,18 @@
                 O bella ciao, bella ciao, bella ciao ciao ciao.
                 E se io muoio da partigiano.
                 Tu mi devi seppellir.</p>
+            <p class="body-font-sm">Mi seppellire lassù in montagna.
+                O bella ciao, bella ciao, bella ciao ciao ciao.
+                Mi seppellire lassù in montagna.
+                Sotto l'ombra di un bel fiore.</p>
+            <p class="body-font-sm">E le genti che passeranno.
+                O bella ciao, bella ciao, bella ciao ciao ciao.
+                E le genti che passeranno.
+                Mi diranno: "Che bel fior".</p>
+            <p class="body-font-sm">È questo il fiore del partigiano.
+                O bella ciao, bella ciao, bella ciao ciao ciao.
+                È questo il fiore del partigiano.
+                Morto per la libertà.</p>
         </div>
         <div class="col-lg-6 p-4 my-4">
 
@@ -335,65 +361,66 @@
 End Main -->
 
 <!-- Footer -->
-        <footer class="container-fluid">
-            <div class="footer row">
-                <div class="col-sm-12 col-md-6">
-                    <section class="subscription">
-                        <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
-                        <form action="#" class="row flex-fill">
-                            <input class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
-                            <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
-                        </form>
-                    </section>
-                </div>
+<footer class="container-fluid">
+    <div class="footer row">
+        <div class="col-sm-12 col-md-6">
+            <section class="subscription">
+                <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
+                <form action="https://formspree.io/f/xrgrbark"
+                      method="POST" class="row flex-fill">
+                    <input name="email" class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
+                    <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
 
-                <div class="contact-link col-sm col-md-6">
-                    <div class="row">
-
-
-                        <section class="link col-sm-6 col-md-6">
-                            <h3 class="title">Direct</h3>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Details</a></li>
-                                <li><a href="#">Account</a></li>
-                                <li><a href="#">About us</a></li>
-
-                            </ul>
-                        </section>
-
-                        <section class="contact col-sm-6 col-md-6">
-                            <img width="80" src="resources/img/flwr-02.png" alt="flwr company logo">
-                            <address>Flower street 123<br>
-                                2000 Antwerpen<br>
-                                Belgium<br></address>
-
-                            <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
-                            <tel>0489 33 37 82</tel>
+        <div class="contact-link col-sm col-md-6">
+            <div class="row">
 
 
-                        </section>
+                <section class="link col-sm-6 col-md-6">
+                    <h3 class="title">Direct</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="tips.html">Account</a></li>
+                        <li><a href="about.html">About us</a></li>
 
-                    </div>
+                    </ul>
+                </section>
+
+                <section class="contact col-sm-6 col-md-6">
+                    <img width="6837" height="2056" src="resources/img/flwr-02.png" alt="flwr company logo">
+                    <address>Flower street 123<br>
+                        2000 Antwerpen<br>
+                        Belgium<br></address>
+
+                    <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
+                    <a href="tel:+32489333782">+324 89 33 37 82</a>
 
 
-                </div>
+                </section>
 
             </div>
-            <div class="links row">
-                <div class="col-sm col-md w-100">
-                    <section>
-                        <ul class="d-flex">
-                            <li class="col-sm"><a href="">©2021 FLWR co.</a></li>
-                            <li class="col-sm"><a href="">Shipping & Refunds</a></li>
-                            <li class="col-sm"><a href="">Privacy Policy</a></li>
-                            <li class="col-sm"><a href="">Cookie Policy</a></li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-      </footer>
+
+
+        </div>
+
+    </div>
+    <section class="links row">
+        <div class="col-sm col-md w-100">
+
+            <ul class="d-flex">
+                <li class="col-sm"><a href="#">© 2021 FLWR co.</a></li>
+                <li class="col-sm"><a href="#">Shipping & Refunds</a></li>
+                <li class="col-sm"><a href="#">Privacy Policy</a></li>
+                <li class="col-sm"><a href="#">Cookie Policy</a></li>
+            </ul>
+
+        </div>
+    </section>
+</footer>
 <!-- END Footer -->
 </div>
 
