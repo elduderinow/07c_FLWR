@@ -10,6 +10,12 @@ This project is on GitHub due to the need to cooperate on a single project, with
 - Yuntian (Account page)
 - Lawrence (Homepage and editor of this readme file...hi there :))
 
+Here are some useful clicks:
+- (https://imgur.com/a/da9Gmbt "Screenshot of the homepage")
+
+
+---
+
 ### Requirements:
 
 #### Perfection is not a detail
