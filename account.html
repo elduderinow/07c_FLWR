@@ -12,6 +12,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEB9R16YJC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-VEB9R16YJC');
+    </script>
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/account.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
@@ -206,8 +215,9 @@
         <div class="col-sm-12 col-md-6">
             <section class="subscription">
                 <h3 class="flex-fill title text-center">Subscribe <br> to our newsletter</h3>
-                <form action="#" class="row flex-fill">
-                    <input class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
+                <form action="https://formspree.io/f/xrgrbark"
+                      method="POST" class="row flex-fill">
+                    <input name="email" class="col-sm col-md-7 input m-3" type="email" placeholder="E-mail">
                     <input class="col-sm submit m-3 main-but" type="submit" value="Submit">
                 </form>
             </section>
@@ -220,23 +230,23 @@
                 <section class="link col-sm-6 col-md-6">
                     <h3 class="title">Direct</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Details</a></li>
-                        <li><a href="#">Account</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="about.html">About us</a></li>
 
                     </ul>
                 </section>
 
                 <section class="contact col-sm-6 col-md-6">
-                    <img width="80" src="resources/img/flwr-02.png" alt="flwr company logo">
+                    <img width="6837" height="2056" src="resources/img/flwr-02.png" alt="flwr company logo">
                     <address>Flower street 123<br>
                         2000 Antwerpen<br>
                         Belgium<br></address>
 
                     <a href="mailto:bloom@flwr.com">bloom@flwr.com</a><br>
-                    <tel>0489 33 37 82</tel>
+                    <a href="tel:+32489333782">+324 89 33 37 82</a>
 
 
                 </section>
@@ -247,71 +257,23 @@
         </div>
 
     </div>
-    <div class="links row">
+    <section class="links row">
         <div class="col-sm col-md w-100">
-            <section>
-                <ul class="d-flex">
-                    <li class="col-sm"><a href="">©2021 FLWR co.</a></li>
-                    <li class="col-sm"><a href="">Shipping & Refunds</a></li>
-                    <li class="col-sm"><a href="">Privacy Policy</a></li>
-                    <li class="col-sm"><a href="">Cookie Policy</a></li>
-                </ul>
-            </section>
+
+            <ul class="d-flex">
+                <li class="col-sm"><a href="#">© 2021 FLWR co.</a></li>
+                <li class="col-sm"><a href="#">Shipping & Refunds</a></li>
+                <li class="col-sm"><a href="#">Privacy Policy</a></li>
+                <li class="col-sm"><a href="#">Cookie Policy</a></li>
+            </ul>
+
         </div>
-    </div>
+    </section>
 </footer>
 <!-- END Footer -->
 
 
-<!-- Optional JavaScript -->
-<script>
-    $(function () {
 
-        // init the validator
-        // validator files are included in the download package
-        // otherwise download from http://1000hz.github.io/bootstrap-validator
-
-        $('#contact-form').validator();
-
-
-        // when the form is submitted
-        $('#contact-form').on('submit', function (e) {
-
-            // if the validator does not prevent form submit
-            if (!e.isDefaultPrevented()) {
-                var url = "contact.php";
-
-                // POST values in the background the the script URL
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: $(this).serialize(),
-                    success: function (data)
-                    {
-                        // data = JSON object that contact.php returns
-
-                        // we recieve the type of the message: success x danger and apply it to the
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
-
-                        // let's compose Bootstrap alert box HTML
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-
-                        // If we have messageAlert and messageText
-                        if (messageAlert && messageText) {
-                            // inject the alert to .messages div in our form
-                            $('#contact-form').find('.messages').html(alertBox);
-                            // empty the form
-                            $('#contact-form')[0].reset();
-                        }
-                    }
-                });
-                return false;
-            }
-        })
-    });
-
-</script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
