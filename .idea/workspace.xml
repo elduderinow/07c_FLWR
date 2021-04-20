@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af86405-1c28-46e4-b580-9f4625866b7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/img/icons8-flower-bouquet-48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/07c_FLWR.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/Mick.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/Yun.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/backabout.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/details_bio_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/home-bg-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/law.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/plants_ground.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/prince.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/yar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/details_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/details_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/global.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style-about.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style-about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/tips.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +26,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/resources/js/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/resources/css/global.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/resources/css/details_style.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/details.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/resources/css/index_style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/details.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resources/css/details_style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resources/css/index_style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1rF8afHAkP9ZiNTeB59ffAPNUAr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,6 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,6 +61,9 @@
       <workItem from="1618649090410" duration="13046000" />
       <workItem from="1618754665150" duration="21398000" />
       <workItem from="1618859529458" duration="12893000" />
+      <workItem from="1618916585354" duration="25000" />
+      <workItem from="1618916623365" duration="102000" />
+      <workItem from="1618916747948" duration="1390000" />
     </task>
     <servers />
   </component>

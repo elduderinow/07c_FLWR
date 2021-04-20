@@ -58,7 +58,6 @@ body, .text-secondary {
 
 .body-font-sm {
     font-family: "Helvetica Neue", sans-serif;
-    font-weight: lighter;
     font-size: 1em;
 }
 
@@ -84,4 +83,9 @@ body, .text-secondary {
 
 
 
+.price-flowers {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
 

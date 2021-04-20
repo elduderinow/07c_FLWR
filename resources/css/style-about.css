@@ -14,12 +14,6 @@ body{
 }
 /* Start created by */
 
-body{
-    background: #f1a6a6;
-    user-select: none;
-
-
-}
 
 
 #slider{
@@ -111,5 +105,9 @@ input[type=radio]{
 /* End created by */
 
 .offer_style{
-    background-color: #efc6be;
+    background-color: #282728;
+}
+
+body {
+    color:#fefefe;
 }
