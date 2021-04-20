@@ -16,6 +16,10 @@ Here are some useful clicks:
 - (https://imgur.com/a/da9Gmbt "Screenshot of the homepage")
 - (https://elduderinow.github.io/07c_FLWR/index.html "View our page online")
 
+We also made use of the following in the creation of our project:
+- Google analytics
+- Bootstrap
+- Fontawesome
 
 ---
 
@@ -36,9 +40,9 @@ Here are some useful clicks:
 #### Content
 
  - [ ] Openinghours (if needed)
- - [ x ] Address (if needed)
- - [ x ] Clickable email
- - [ x ] A working form (you can use https://formspree.io)
+ - [x] Address (if needed)
+ - [x] Clickable email
+ - [x] A working form (you can use https://formspree.io)
 
 #### Text life matters aka typography is real
 
@@ -92,13 +96,13 @@ Here are some useful clicks:
 
 #### Readme but also writeme
 
- - [ ] The readme says who made it
- - [ ] The readme says why they made it
- - [ ] The readme explains what this repo/project is
- - [ ] The readme explains why it is on github
- - [ ] The readme links to a preview (screenshot)
- - [ ] The readme contains a nice image
- - [ ] The readme does not contain the readme/license of dependencies, libraries, templates
+ - [x] The readme says who made it
+ - [x] The readme says why they made it
+ - [x] The readme explains what this repo/project is
+ - [x] The readme explains why it is on github
+ - [x] The readme links to a preview (screenshot)
+ - [x] The readme contains a nice image
+ - [x] The readme does not contain the readme/license of dependencies, libraries, templates
  - [ ] If needed they are included in the repo and are mentioned in the readme
  - [ ] The readme has a markdown title
  - [ ] The readme is divided in sections
@@ -119,7 +123,7 @@ Here are some useful clicks:
 
 #### Data is the new oil
 
- - [ x ] Implements (Google) analytics
+ - [x] Implements (Google) analytics
 
 #### Perform all the tests
 
@@ -166,7 +170,7 @@ Here are some useful clicks:
 
 #### Team AdastrA
 
-  - [ ] Call to Action : add a form of email marketing via a newsletter signup
+  - [x] Call to Action : add a form of email marketing via a newsletter signup
 
 #### FLWR
 
