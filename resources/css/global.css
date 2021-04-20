@@ -53,15 +53,15 @@ a.main-but:hover {
   width: 100px;
   height: 100%;
 }
-.navbar .social-icons {
-  color: #fefefe;
-}
 .navbar .social-icons ul li {
   display: inline;
   padding: 0 10px;
+}
+.navbar .social-icons ul li a {
+  color: #fefefe;
   transition: 0.3s;
 }
-.navbar .social-icons ul li:hover {
+.navbar .social-icons ul li a:hover {
   color: #be6f62;
   cursor: pointer;
 }

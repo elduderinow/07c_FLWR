@@ -6,36 +6,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Mick">
+    <meta name="keywords" content="Flowers, Plants, FLWR, Online, Store, Bouquets, Gifts">
     <title>FLWR</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Extra links -->
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VEB9R16YJC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'G-VEB9R16YJC');
-    </script>
-
     <link rel="stylesheet" href="resources/css/global.css">
     <link rel="stylesheet" href="resources/css/shop.css">
     <link rel="stylesheet" href="resources/css/details_style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
 </head>
+
 <body>
 <div class="container-fluid">
 
-    <!-- header -->
+    <!-- Start header -->
     <header>
         <div id="navigation" class="row">
 
@@ -51,15 +40,15 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="shop.html">Shop <span class="sr-only">(current)</span></a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link link-active active" href="details.html">Details</a>
+                        <li class="nav-item active">
+                            <a class="nav-link link-active" href="details.html">Details</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tips.html">Tips/Tricks</a>
+                            <a class="nav-link" href="account.html">Account</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -67,298 +56,156 @@
                     </ul>
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"></a><i class="fa fa-facebook fa-lg"></i></a></li>
-                            <li><a href="#"></a><i class="fa fa-twitter fa-lg"></i></a></li>
-                            <li><a href="#"></a><i class="fa fa-instagram fa-lg"></i></a></li>
-                            <li><a href="#"></a><i class="fa fa-pinterest fa-lg"></i></a></li>
-                            <li><a href="#"></a><i class="fa fa-youtube fa-lg"></i></a></li>
-                            <!--  <li><a href="#"></a><i class="fa fa-shopping-cart fa-lg"></i></a></li>-->
+                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+
                         </ul>
 
                     </div>
-
                 </div>
-
             </nav>
-        </div>
-        <div class="carousel row">
-            <div class="bd-example w-100">
 
-                <div id="carouselExampleCaptionsMain" class="carousel slide" data-ride="carousel">
+            </div>
+            <div class="carousel row">
+                <div class="bd-example w-100">
+                    <div id="carouselExampleCaptionsMain" class="carousel slide" data-ride="carousel">
 
-                 <!--   <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptionsMain" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptionsMain" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptionsMain" data-slide-to="2"></li>
-                    </ol> -->
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
                             <div class="header-img one col">
-                                <div class="shade"></div>
-                            </div>
-
-                            <div class="carousel-caption d-md-block m-4">
-                                <h5>Exclusive flowers and plants.</h5><br><br>
-
-                                <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
-                            </div>
+                            <div class="shade"></div>
                         </div>
-
-                      <!--  <div class="carousel-item">
-                            <div class="header-img two col">
-                                <div class="shade"></div>
-                            </div>
-
-                            <div class="carousel-caption d-md-block m-4">
-                                <h5>Exclusive flowers and plants.</h5><br><br>
-
-                                <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
-                            </div>
+                        <div class="carousel-caption d-md-block m-4">
+                            <h5>Exclusive flowers and plants.</h5><br><br>
+                            <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
                         </div>
-
-                        <div class="carousel-item">
-                            <div class="header-img three col">
-                                <div class="shade"></div>
-                            </div>
-
-                            <div class="carousel-caption d-md-block m-4">
-                                <h5>Exclusive flowers and plants.</h5><br><br>
-
-                                <a class="header-but" href="#ourplants" role="button">DISCOVER</a>
-                            </div>
-
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicatorsMain" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicatorsMain" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a> -->
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+
     </header>
     <!-- End Header -->
 
-
-    <!-- End Header -->
-
-
-    <!-- Main -->
-    <div class="row d-flex justify-content-center bg-color-dark">
-        <section id="ourplants" class="partners row">
-            <div class="col-sm-12 col-md-12 p-4 text-center m-auto">
-                <h2 class="title">Some tips and information</h2>
-                <p class="body-font p-3">On how to give the best of care to your new plants and flowers</p>
-            </div>
-        </section>
-    </div>
-
-    <div class="row d-flex justify-content-center my-4">
-
-        <div class="col-lg-4 p-4">
-            <!--Carousel Wrapper-->
-            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner carousel-image">
-                    <div class="carousel-item active">
-                        <div class="img1-detail carousel-image"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="img2-detail carousel-image"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="img3-detail carousel-image"></div>
-                    </div>
+    <!-- Start main -->
+    <main>
+        <div class="row d-flex justify-content-center bg-color-dark">
+            <section id="ourplants" class="partners row">
+                <div class="col-sm-12 col-md-12 p-4 text-center m-auto">
+                    <h2 class="title">Some tips and information</h2>
+                    <p class="body-font p-3">On how to give the best of care to your new plants and flowers.</p>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <!--/.Carousel Wrapper-->
+            </section>
         </div>
 
-        <div class="col-lg-6 p-4 bg">
+        <!-- Start Purchase Row -->
+        <section class="row d-flex justify-content-center my-4">
+            <!-- Carousel with Detail Pictures of Bouquet Purchase -->
+            <section class="col-lg-4 p-4">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner carousel-image">
+                        <div class="carousel-item active">
+                            <div class="img1-detail carousel-image"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img2-detail carousel-image"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img3-detail carousel-image"></div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+            <!-- End Carousel With Detail Pictures of Bouquet Purchase -->
 
-                <h2 class="title pb-3">Bella Ciao Bouquet</h2>
-                <p class="price">Price: 2000$</p>
-                <hr class="rule">
-                <p class="body-font">"It was always 'Bucket' until I met you!"</p>
-                <p class="body-font-sm">Alocasia is een geslacht uit de aronskelkfamilie.
-                    Het geslacht telt negenenzeventig soorten die voorkomen van tropisch en subtropisch Azië tot in
-                    Oost-Australië.</p>
-                <hr class="rule">
-                <p class="body-font">Choose your vase</p>
-                <div class="row flex-row">
+            <!-- Start Add To Cart Section -->
+            <section class="col-lg-6 p-4 bg">
+                    <h2 class="title mb-3">Summer Romance</h2>
+                    <p class="price">Price: 2000$</p>
+                    <hr class="rule">
+                    <p class="body-font">Add some romance to your life with this colorful arrangement</p>
+                    <p class="body-font-sm">Romance is alive and well when you add this carefully selected bouquet to your interior.</p>
+                    <hr class="rule">
+                    <p class="body-font">Choose your vase</p>
+                    <div class="row flex-row mb-3">
                         <div class="small-image1 pots m-2"></div>
                         <div class="small-image2 pots m-2"></div>
                         <div class="small-image3 pots m-2"></div>
-                </div>
-                <a class="btn main-but-left mt-4" href="#rainbow" role="button">ADD TO CART</a>
+                    </div>
+                    <div class="row mt-2">
+                        <a class="main-but flex-column" href="mailto:bloom@flwr.com" role="button">CONTACT US</a>
+                    </div>
+            </section>
+            <!-- End Add To Cart Section -->
+        </section>
+        <!-- End Purchase Row -->
+
+        <!-- Start About This Bouquet Row -->
+        <section class="row d-flex justify-content-center bg-color-dark my-4">
+            <div class="col-lg-4 p-4 my-4">
+                <h2 class="title mb-3">About this Bouquet</h2>
+                <p class="body-font">You won't find our bouquets on a production line, our lovely local artisan florists will individually craft each design using a medley of fresh flowers. They'll hand-pick the very best stems to create a truly one-of-a-kind gift made with all the love and care you want it to represent.</p>
+                <p class="body-font-sm">A beautiful bouquet of luxury flowers is the perfect gift from FLWR, the prestigious online florist. Pure white fragrant oriental lilies with vibrant yellow roses, sugar flair hypericum berries and alluring lilac memory lane roses.</p>
+                <p class="body-font-sm">This carefully selected and arranged bouquet offers romantic warm colors in tints of red and pink with some yellow bright accents. The balanced composition consists of round flowers as well as longer spiky ones.</p>
+                <p class="body-font-sm"><b class="bold">Composition:</b><br>
+                    4x White Oriental Lily, 4x Pink Rose, 4x Lilac Rose, 3x Sugar Flair Hypericum Berry, 2x Tanacetum Single Vegmo, 2x Greenbell.</p>
             </div>
-    </div>
 
+            <div class="col-lg-6 p-4 my-4">
+                <div class="bio-img1 bio-img-pos"></div>
+            </div>
+        </section>
+        <!-- End About This Bouquet Row -->
 
-    <div class="row d-flex justify-content-center bg-color-dark my-4">
-        <div class="col-lg-4 p-4 my-4">
-            <h2 class="title mb-3">About this Bouquet</h2>
-            <p class="body-font">Una mattina mi son svegliato.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                Una mattina mi son svegliato.
-                Eo ho trovato l'invasor.</p>
-            <p class="body-font-sm"> O partigiano porta mi via.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                O partigiano porta mi via.
-                Che mi sento di morir.</p>
-            <p class="body-font-sm">E se io muoio da partigiano.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                E se io muoio da partigiano.
-                Tu mi devi seppellir.</p>
-            <p class="body-font-sm">Mi seppellire lassù in montagna.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                Mi seppellire lassù in montagna.
-                Sotto l'ombra di un bel fiore.</p>
-            <p class="body-font-sm">E le genti che passeranno.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                E le genti che passeranno.
-                Mi diranno: "Che bel fior".</p>
-            <p class="body-font-sm">È questo il fiore del partigiano.
-                O bella ciao, bella ciao, bella ciao ciao ciao.
-                È questo il fiore del partigiano.
-                Morto per la libertà.</p>
-        </div>
-        <div class="col-lg-6 p-4 my-4">
-
-            <div class="bio-img1 bio-img-pos"></div>
-        </div>
-    </div>
-
-
-    <div class="row d-flex justify-content-center my-4">
+        <!-- Start Plant Care Row -->
+        <section class="row d-flex justify-content-center my-4">
             <div class="col-lg-10 p-4 text-center">
-                <h2 class="title mb-4">How to take care of your plants</h2>
-                <p class="body-font mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque consequuntur delectus hic
-                    inventore ipsum iste itaque magni nesciunt numquam omnis pariatur perspiciatis quaerat sapiente soluta
-                    tempore temporibus ut, voluptate.</p>
+                <h2 class="title mb-3">How to take care of your plants</h2>
+                <p class="body-font mb-5">There's no better way to take care of all of our exquisite flowers than with all the care and love in the world. FLWR is here to provide you with all the information you need to ensure that your flowers last as long as possible.</p>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <i class="fab fa-pagelines fa-3x mb-2"></i>
-                        <p class="body-font">Food</p>
-                        <p class="body-font-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque commodi doloremque expedita in iure mollitia non perferendis saepe tempore. Accusamus corporis dolore ex fuga magnam nisi perferendis quam ullam.</p>
+                        <p class="body-font"><b class="bold">Food</b></p>
+                        <p class="body-font-sm">Fill a non-metal vase with water and add 1 packet of flower food. cutting the stems every 3 or 4 days will lengthen their life. After doing this, clean the vase before refilling it with new water and add more flower food.</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <i class="fas fa-faucet fa-3x mb-2"></i>
-                        <p class="body-font">Water</p>
-                        <p class="body-font-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque commodi doloremque expedita in iure mollitia non perferendis saepe tempore. Accusamus corporis dolore ex fuga magnam nisi perferendis quam ullam.</p>
+                        <p class="body-font"><b class="bold">Water</b></p>
+                        <p class="body-font-sm">In the summer season, you need to water your flowers at least once every day. Plants lose a lot of water during this season and they can wither or have stunted growth if they are not well watered.</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <i class="fas fa-sun fa-3x mb-2"></i>
-                        <p class="body-font">Light</p>
-                        <p class="body-font-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque commodi doloremque expedita in iure mollitia non perferendis saepe tempore. Accusamus corporis dolore ex fuga magnam nisi perferendis quam ullam.</p>
+                        <p class="body-font"><b class="bold">Light</b></p>
+                        <p class="body-font-sm">Sunlight is the source of energy in plants, and so you need to ensure that your flowers are getting enough of it. Some flowers need many hours of sunlight every day while others, like the indoors, need just a few hours.</p>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3">
                         <i class="fas fa-thermometer-three-quarters fa-3x mb-2"></i>
-                        <p class="body-font">Heat</p>
-                        <p class="body-font-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque commodi doloremque expedita in iure mollitia non perferendis saepe tempore. Accusamus corporis dolore ex fuga magnam nisi perferendis quam ullam.</p>
+                        <p class="body-font"><b class="bold">Heat</b></p>
+                        <p class="body-font-sm">Keep Flowers Away from Heat Sources Keep the vase away from windows that may frost or get cold in low temperatures, heat registers, vents, and radiators. It's also best to keep them from appliances that emit heat.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <!-- End Plant Care Row -->
 
-
-
-                                <!--multi-carousel
-                            <div class="row pink-bg-color">
-                            <div class="my-5 text-center container">
-                            <div class="row mb-2">
-                                <div class="col text-center">
-                                    <h2 class="title">Others also bought</h2>
-                                    <p class="body">Does what it says on the tin.</p>
-                                </div>
-                            </div>
-
-                            <div class="row d-flex align-items-center">
-                                <div class="col-1 d-flex align-items-center justify-content-center">
-                                    <a href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                                        <div class="carousel-nav-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                                 xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <path d="m88.6,121.3c0.8,0.8 1.8,1.2 2.9,1.2s2.1-0.4 2.9-1.2c1.6-1.6 1.6-4.2 0-5.8l-51-51 51-51c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2 0,5.8l54,53.9z"/>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-
-
-                                <div class="col-10">
-
-                                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
-
-                                        <div class="carousel-inner">
-                                            <div class="carousel-item active">
-                                                <div class="row">
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun04.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                    </div>
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun02.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                    </div>
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun05.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                        <h3 class="text-white">Text in the panel.</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="carousel-item">
-                                                <div class="row">
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun01.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                    </div>
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun03.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                    </div>
-                                                    <div style="background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/flexfun06.jpg');"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center"
-                                                         class="col-12 col-md d-flex align-items-center justify-content-center">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                                <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators3"
-                                                                                                       data-slide="next">
-                                    <div class="carousel-nav-icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
-                                             xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <path d="m40.4,121.3c-0.8,0.8-1.8,1.2-2.9,1.2s-2.1-0.4-2.9-1.2c-1.6-1.6-1.6-4.2 0-5.8l51-51-51-51c-1.6-1.6-1.6-4.2 0-5.8 1.6-1.6 4.2-1.6 5.8,0l53.9,53.9c1.6,1.6 1.6,4.2 0,5.8l-53.9,53.9z"/>
-                                        </svg>
-                                    </div>
-                                </a>
-                                </div>
-                            </div>
-                            </div>
-                            </div>
-
-
-End Main -->
+    </main>
+    <!-- End Main -->
+</div>
 
 <!-- Footer -->
 <footer class="container-fluid">
@@ -384,7 +231,7 @@ End Main -->
                         <li><a href="index.html">Home</a></li>
                         <li><a href="shop.html">Shop</a></li>
                         <li><a href="details.html">Details</a></li>
-                        <li><a href="tips.html">Account</a></li>
+                        <li><a href="tips.html">Tips/Tricks</a></li>
                         <li><a href="about.html">About us</a></li>
 
                     </ul>
@@ -408,21 +255,10 @@ End Main -->
         </div>
 
     </div>
-    <section class="links row">
-        <div class="col-sm col-md w-100">
 
-            <ul class="d-flex">
-                <li class="col-sm"><a href="#">© 2021 FLWR co.</a></li>
-                <li class="col-sm"><a href="#">Shipping & Refunds</a></li>
-                <li class="col-sm"><a href="#">Privacy Policy</a></li>
-                <li class="col-sm"><a href="#">Cookie Policy</a></li>
-            </ul>
-
-        </div>
-    </section>
 </footer>
 <!-- END Footer -->
-</div>
+
 
 <!-- Optional JavaScript -->
 
