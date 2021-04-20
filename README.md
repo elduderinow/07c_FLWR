@@ -33,32 +33,32 @@ Here are some useful clicks:
 #### Content
 
  - [ ] Openinghours (if needed)
- - [ ] Address (if needed)
- - [ ] Clickable email
- - [ ] A working form (you can use https://formspree.io)
+ - [ x ] Address (if needed)
+ - [ x ] Clickable email
+ - [ x ] A working form (you can use https://formspree.io)
 
 #### Text life matters aka typography is real
 
- - [ ] Some words are bolded
- - [ ] Some words are italic
+ - [ x ] Some words are bolded
+ - [ x ] Some words are italic
  - [ ] Some words have a different color
  - [ ] We aren't using a default font, cause it's not 2004
  - [ ] Contrast is not too low
  - [ ] Typographic hierachy is correct
  - [ ] Text has a clear intro, middle, conclusion
  - [ ] Intro, middle, conclusion is style correctly
- - [ ] Headline font is a headline font
- - [ ] Body text font is a body text font
+ - [ x ] Headline font is a headline font
+ - [ x ] Body text font is a body text font
  - [ ] The text on the page has a good flow
 
 #### Style
 
- - [ ] Black is almost black but not #000
- - [ ] White is almost white but not #fff
- - [ ] The website is not an ugly color mess
+ - [ x ] Black is almost black but not #000
+ - [ x ] White is almost white but not #fff
+ - [ x ] The website is not an ugly color mess
  - [ ] The styling is consistent
  - [ ] It is not four totally different pages thrown together
- - [ ] Everything works even if you are colorblind
+ - [  ] Everything works even if you are colorblind
 
 #### Not everyone has free 4G aka speed matters
 
@@ -116,7 +116,7 @@ Here are some useful clicks:
 
 #### Data is the new oil
 
- - [ ] Implements (Google) analytics
+ - [ x ] Implements (Google) analytics
 
 #### Perform all the tests
 
@@ -155,11 +155,11 @@ Here are some useful clicks:
 
 #### Team McNuggets
 
-  - [ ] Add descriptive comments to your code
+  - [ x ] Add descriptive comments to your code
 
 #### Team BeLicense
 
-  - [ ] Use a clear folder structure in your project
+  - [ x ] Use a clear folder structure in your project
 
 #### Team AdastrA
 
@@ -167,8 +167,8 @@ Here are some useful clicks:
 
 #### FLWR
 
-  - [ ] Whenever you hover over an image, some text appears on top of it
+  - [ x ] Whenever you hover over an image, some text appears on top of it
 
 #### Hilltop B&B
 
-  - [ ] Add at least one on hover animation
+  - [ x ] Add at least one on hover animation
